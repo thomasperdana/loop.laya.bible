@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-6.1: Loops of loops</title>
+<desc id="d">Three concentric rings on the left. Inner loop: the agent's turns, seconds to minutes, checked by tests and linters. Middle loop: one task or pull request, hours, checked by CI and a reviewer. Outer loop: evals and improvements to prompts, checkers, and caps, days to weeks, checked by the golden set and by you. A table on the right repeats each ring's clock and checker.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Loops of loops</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-6.1</text>
+<circle cx="330.0" cy="380.0" r="250.0" fill="#F6E6EF" stroke="#CC79A7" stroke-width="3"/>
+<circle cx="330.0" cy="380.0" r="170.0" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<circle cx="330.0" cy="380.0" r="92.0" fill="#E1EEF8" stroke="#0072B2" stroke-width="3"/>
+<path d="M95.1,294.5 A250,250 0 0 1 244.5,145.1" fill="none" stroke="#CC79A7" stroke-width="4" marker-end="url(#ah-purple)"/>
+<path d="M170.3,321.9 A170,170 0 0 1 271.9,220.3" fill="none" stroke="#009E73" stroke-width="4" marker-end="url(#ah-green)"/>
+<path d="M243.5,348.5 A92,92 0 0 1 298.5,293.5" fill="none" stroke="#0072B2" stroke-width="4" marker-end="url(#ah-blue)"/>
+<text x="330.0" y="372.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="middle">INNER</text>
+<text x="330.0" y="400.0" font-size="17" font-weight="600" fill="#334155" text-anchor="middle">agent turns</text>
+<text x="330.0" y="258.0" font-size="22" font-weight="800" fill="#00795A" text-anchor="middle">MIDDLE</text>
+<text x="330.0" y="282.0" font-size="17" font-weight="600" fill="#334155" text-anchor="middle">one task or PR</text>
+<text x="330.0" y="180.0" font-size="22" font-weight="800" fill="#9C3F76" text-anchor="middle">OUTER</text>
+<text x="330.0" y="204.0" font-size="17" font-weight="600" fill="#334155" text-anchor="middle">evals · improvements · you</text>
+<text x="654.0" y="170.0" font-size="18" font-weight="800" fill="#64748B" text-anchor="start">Ring</text>
+<text x="760.0" y="170.0" font-size="18" font-weight="800" fill="#64748B" text-anchor="start">Clock</text>
+<text x="950.0" y="170.0" font-size="18" font-weight="800" fill="#64748B" text-anchor="start">Its checker</text>
+<rect x="636.0" y="190.0" width="520.0" height="100.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="654.0" y="248.0" font-size="20" font-weight="800" fill="#005F94" text-anchor="start">INNER</text>
+<text x="760.0" y="248.0" font-size="17" font-weight="600" fill="#334155" text-anchor="start">seconds–minutes</text>
+<text x="950.0" y="234.0" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">tests, linters,</text>
+<text x="950.0" y="256.1" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">exact match</text>
+<rect x="636.0" y="310.0" width="520.0" height="100.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="654.0" y="368.0" font-size="20" font-weight="800" fill="#00795A" text-anchor="start">MIDDLE</text>
+<text x="760.0" y="368.0" font-size="17" font-weight="600" fill="#334155" text-anchor="start">hours</text>
+<text x="950.0" y="354.0" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">CI, a reviewer, your</text>
+<text x="950.0" y="376.1" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">approval (rung 3)</text>
+<rect x="636.0" y="430.0" width="520.0" height="100.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="654.0" y="488.0" font-size="20" font-weight="800" fill="#9C3F76" text-anchor="start">OUTER</text>
+<text x="760.0" y="488.0" font-size="17" font-weight="600" fill="#334155" text-anchor="start">days–weeks</text>
+<text x="950.0" y="474.0" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">the golden set, and</text>
+<text x="950.0" y="496.1" font-size="17" font-weight="400" fill="#0F172A" text-anchor="start">you</text>
+<text x="636.0" y="588.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="start">The further out the ring,</text>
+<text x="636.0" y="614.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="start">the more its checker should involve a person.</text>
+</svg>

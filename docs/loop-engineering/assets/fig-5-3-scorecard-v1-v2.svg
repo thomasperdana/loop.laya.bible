@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-5.3: CS-1 scorecard: v1 vs v2</title>
+<desc id="d">Paired horizontal bars for eight criteria rated 0 to 5. Version 1 in orange with diagonal hatching, version 2 in solid blue. Goal and done: 2 then 5. Checker: 1 then 5. Stop rules and budget: 0 then 5. Safety: 1 then 4. State and memory: 1 then 4. Observability: 1 then 4. Human touchpoints: 1 then 4. Reusability: 1 then 4. Totals: 20 out of 100 for v1 and 89 out of 100 for v2.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">CS-1 scorecard: v1 vs v2</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">CALC-4 · Score = 3 × (bold criteria 1–4, above the dashed line) + 2 × (criteria 5–8)</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-5.3</text>
+<defs><pattern id="hatch" patternUnits="userSpaceOnUse" width="10" height="10" patternTransform="rotate(45)"><rect width="10" height="10" fill="#FDF1D8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#E69F00" stroke-width="5"/></pattern></defs>
+<line x1="330.0" y1="118.0" x2="330.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="330.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">0</text>
+<line x1="440.0" y1="118.0" x2="440.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="440.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">1</text>
+<line x1="550.0" y1="118.0" x2="550.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="550.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">2</text>
+<line x1="660.0" y1="118.0" x2="660.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="660.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">3</text>
+<line x1="770.0" y1="118.0" x2="770.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="770.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">4</text>
+<line x1="880.0" y1="118.0" x2="880.0" y2="578.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="880.0" y="604.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">5</text>
+<text x="314.0" y="156.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="end">1 Goal &amp; done</text>
+<rect x="330" y="126" width="220" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="558.0" y="142.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">2</text>
+<rect x="330.0" y="150.0" width="550.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="888.0" y="168.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">5</text>
+<text x="314.0" y="213.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="end">2 Checker</text>
+<rect x="330" y="183" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="199.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="207.0" width="550.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="888.0" y="225.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">5</text>
+<text x="314.0" y="270.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="end">3 Stop rules &amp; budget</text>
+<text x="338.0" y="256.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">0</text>
+<rect x="330.0" y="264.0" width="550.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="888.0" y="282.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">5</text>
+<text x="314.0" y="327.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="end">4 Safety</text>
+<rect x="330" y="297" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="313.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="321.0" width="440.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="778.0" y="339.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">4</text>
+<text x="314.0" y="384.0" font-size="19" font-weight="400" fill="#0F172A" text-anchor="end">5 State &amp; memory</text>
+<rect x="330" y="354" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="370.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="378.0" width="440.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="778.0" y="396.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">4</text>
+<text x="314.0" y="441.0" font-size="19" font-weight="400" fill="#0F172A" text-anchor="end">6 Observability</text>
+<rect x="330" y="411" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="427.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="435.0" width="440.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="778.0" y="453.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">4</text>
+<text x="314.0" y="498.0" font-size="19" font-weight="400" fill="#0F172A" text-anchor="end">7 Human touchpoints</text>
+<rect x="330" y="468" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="484.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="492.0" width="440.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="778.0" y="510.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">4</text>
+<text x="314.0" y="555.0" font-size="19" font-weight="400" fill="#0F172A" text-anchor="end">8 Reusability</text>
+<rect x="330" y="525" width="110" height="20" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="448.0" y="541.0" font-size="16" font-weight="800" fill="#9A6100" text-anchor="start">1</text>
+<rect x="330.0" y="549.0" width="440.0" height="22.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="778.0" y="567.0" font-size="16" font-weight="800" fill="#005F94" text-anchor="start">4</text>
+<line x1="56.0" y1="348.0" x2="890.0" y2="348.0" stroke="#64748B" stroke-width="1.5" stroke-dasharray="6 5"/>
+<rect x="930.0" y="150.0" width="230.0" height="150.0" rx="14" fill="#FFFFFF" stroke="#E69F00" stroke-width="3"/>
+<rect x="950" y="172" width="34" height="18" rx="4" fill="url(#hatch)" stroke="#E69F00" stroke-width="2"/>
+<text x="994.0" y="188.0" font-size="20" font-weight="800" fill="#9A6100" text-anchor="start">v1</text>
+<text x="1045.0" y="250.0" font-size="48" font-weight="800" fill="#0F172A" text-anchor="middle">20</text>
+<text x="1045.0" y="282.0" font-size="18" font-weight="600" fill="#334155" text-anchor="middle">/ 100 · draft</text>
+<rect x="930.0" y="330.0" width="230.0" height="150.0" rx="14" fill="#FFFFFF" stroke="#0072B2" stroke-width="3"/>
+<rect x="950.0" y="352.0" width="34.0" height="18.0" rx="4" fill="#0072B2" stroke="#0072B2" stroke-width="1"/>
+<text x="994.0" y="368.0" font-size="20" font-weight="800" fill="#005F94" text-anchor="start">v2</text>
+<text x="1045.0" y="430.0" font-size="48" font-weight="800" fill="#0F172A" text-anchor="middle">89</text>
+<text x="1045.0" y="462.0" font-size="18" font-weight="600" fill="#334155" text-anchor="middle">/ 100 · strong</text>
+<text x="605.0" y="636.0" font-size="18" font-weight="600" fill="#334155" text-anchor="middle">rating (0–5)</text>
+</svg>

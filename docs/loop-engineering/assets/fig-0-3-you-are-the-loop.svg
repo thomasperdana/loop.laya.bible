@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-0.3: You have been the loop</title>
+<desc id="d">Two panels. Left, in a chat: a person does three jobs every turn: prompt, judge, and decide. Right, with a loop: a prompt file does the prompting, a separate checker does the judging, and stop rules do the deciding, while the person designs the system and handles escalations.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">You have been the loop</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-0.3</text>
+<rect x="44.0" y="116.0" width="520.0" height="520.0" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="304.0" y="160.0" font-size="24" font-weight="800" fill="#0F172A" text-anchor="middle">In a chat: you do every job</text>
+<circle cx="130.0" cy="300.0" r="22.0" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+<path d="M92.0,378.0 Q92.0,332.0 130.0,332.0 Q168.0,332.0 168.0,378.0 Z" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+<rect x="210.0" y="196.0" width="320.0" height="96.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="370.0" y="236.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">1 · PROMPT</text>
+<text x="370.0" y="262.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">write the next request</text>
+<rect x="210.0" y="314.0" width="320.0" height="96.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="370.0" y="354.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">2 · JUDGE</text>
+<text x="370.0" y="380.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">is it good enough?</text>
+<rect x="210.0" y="432.0" width="320.0" height="96.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="370.0" y="472.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">3 · DECIDE</text>
+<text x="370.0" y="498.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">again, change, or stop?</text>
+<text x="130.0" y="430.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="middle">every turn,</text>
+<text x="130.0" y="454.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="middle">by hand</text>
+<text x="304.0" y="596.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle" font-style="italic">You are the prompt writer, the grader, and the off switch.</text>
+<path d="M574.0,376.0 L626.0,376.0" fill="none" stroke="#334155" stroke-width="4" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="636.0" y="116.0" width="520.0" height="520.0" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="896.0" y="160.0" font-size="24" font-weight="800" fill="#0F172A" text-anchor="middle">With a loop: a system does them</text>
+<rect x="676.0" y="196.0" width="440.0" height="96.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="896.0" y="236.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">PROMPT.md</text>
+<text x="896.0" y="262.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">the same instructions, every run</text>
+<rect x="676.0" y="314.0" width="440.0" height="96.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="896.0" y="343.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">CHECKER</text>
+<text x="896.0" y="369.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">separate from the maker; "not yet" by</text>
+<text x="896.0" y="392.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">default</text>
+<rect x="676.0" y="432.0" width="440.0" height="96.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="896.0" y="472.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">STOP RULES</text>
+<text x="896.0" y="498.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">done · cap · stuck · danger · human</text>
+<circle cx="720.0" cy="566.0" r="13.6" fill="#FFFFFF" stroke="#64748B" stroke-width="3"/>
+<path d="M696.4,614.4 Q696.4,585.8 720.0,585.8 Q743.6,585.8 743.6,614.4 Z" fill="#FFFFFF" stroke="#64748B" stroke-width="3"/>
+<text x="762.0" y="586.0" font-size="18" font-weight="600" fill="#334155" text-anchor="start">You: design the system,</text>
+<text x="762.0" y="609.0" font-size="18" font-weight="600" fill="#334155" text-anchor="start">and handle what it escalates.</text>
+</svg>

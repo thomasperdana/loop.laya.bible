@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-0.1: The core cycle</title>
+<desc id="d">Six stages. Top row, left to right: trigger, plan, act, observe. Bottom row, right to left: verify, decide. From decide, one arrow returns to plan to continue or retry, one leads to stop when the work is done or a cap is reached, and one leads to a human when the loop is stuck or something is risky. A bar at the bottom says state is written down after every turn.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">The core cycle</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">Every loop in this guide runs these six stages</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-0.1</text>
+<rect x="60.0" y="140.0" width="240.0" height="118.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="180.0" y="180.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">TRIGGER</text>
+<text x="180.0" y="206.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Something starts a</text>
+<text x="180.0" y="229.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">run</text>
+<rect x="340.0" y="140.0" width="240.0" height="118.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="460.0" y="180.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">PLAN</text>
+<text x="460.0" y="206.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Pick the next small</text>
+<text x="460.0" y="229.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">piece of work</text>
+<rect x="620.0" y="140.0" width="240.0" height="118.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="740.0" y="191.8" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">ACT</text>
+<text x="740.0" y="217.9" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Do it with tools</text>
+<rect x="900.0" y="140.0" width="240.0" height="118.0" rx="14" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="1020.0" y="180.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">OBSERVE</text>
+<text x="1020.0" y="206.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Collect what actually</text>
+<text x="1020.0" y="229.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">happened</text>
+<path d="M304.0,199.0 L334.0,199.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M584.0,199.0 L614.0,199.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M864.0,199.0 L894.0,199.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="900.0" y="318.0" width="240.0" height="118.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="1020.0" y="358.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">VERIFY</text>
+<text x="1020.0" y="384.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">A separate checker:</text>
+<text x="1020.0" y="407.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">pass or not yet?</text>
+<rect x="620.0" y="318.0" width="240.0" height="118.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="740.0" y="358.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">DECIDE</text>
+<text x="740.0" y="384.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Continue, retry,</text>
+<text x="740.0" y="407.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">escalate, or stop</text>
+<rect x="340.0" y="318.0" width="240.0" height="118.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2.5"/>
+<text x="460.0" y="358.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">STOP</text>
+<text x="460.0" y="384.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Done, or a cap was</text>
+<text x="460.0" y="407.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">reached</text>
+<rect x="60.0" y="318.0" width="240.0" height="118.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5" stroke-dasharray="8 6"/>
+<text x="180.0" y="358.1" font-size="22" font-weight="700" fill="#0F172A" text-anchor="middle">ESCALATE</text>
+<text x="180.0" y="384.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">Hand it to a human</text>
+<text x="180.0" y="407.6" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">with the evidence</text>
+<path d="M1020.0,262.0 L1020.0,312.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M896.0,377.0 L866.0,377.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M616.0,377.0 L586.0,377.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M700.0,314.0 L700.0,287.0 L460.0,287.0 L460.0,264.0" fill="none" stroke="#E69F00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-orange)"/>
+<text x="580.0" y="280.0" font-size="17" font-weight="700" fill="#9A6100" text-anchor="middle">continue · retry</text>
+<path d="M740.0,440.0 L740.0,478.0 L180.0,478.0 L180.0,442.0" fill="none" stroke="#CC79A7" stroke-width="3" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#ah-purple)"/>
+<text x="460.0" y="500.0" font-size="17" font-weight="700" fill="#9C3F76" text-anchor="middle">stuck · danger · human checkpoint</text>
+<rect x="60.0" y="532.0" width="1080.0" height="84.0" rx="14" fill="#FFFFFF" stroke="#334155" stroke-width="2" stroke-dasharray="10 6"/>
+<text x="600.0" y="566.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="middle">STATE: written down after every turn</text>
+<text x="600.0" y="596.0" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">a progress file · a run log · a git commit, so the next turn (or the next run) knows what happened</text>
+</svg>

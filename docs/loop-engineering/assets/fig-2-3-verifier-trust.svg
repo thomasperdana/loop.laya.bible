@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-2.3: Trust vs false-pass rate</title>
+<desc id="d">Line chart. Horizontal axis: false-pass rate F from 0 to 30 percent. Vertical axis: trust from 50 to 100 percent. S is 0.90. The solid line for p = 0.30 falls from 100 percent to about 56 percent, passing 95.1 percent at F = 2 percent and 65.9 percent at F = 20 percent. The dashed line for p = 0.50 sits higher, at 81.8 percent when F = 20 percent. Dashed horizontal lines mark 80 and 95 percent.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Trust vs false-pass rate</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">CALC-1 with S = 0.90 · Trust = p×S ÷ (p×S + (1 − p)×F)</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-2.3</text>
+<line x1="170.0" y1="500.0" x2="990.0" y2="500.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="506.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">50%</text>
+<line x1="170.0" y1="426.0" x2="990.0" y2="426.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="432.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">60%</text>
+<line x1="170.0" y1="352.0" x2="990.0" y2="352.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="358.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">70%</text>
+<line x1="170.0" y1="278.0" x2="990.0" y2="278.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="284.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">80%</text>
+<line x1="170.0" y1="204.0" x2="990.0" y2="204.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="210.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">90%</text>
+<line x1="170.0" y1="130.0" x2="990.0" y2="130.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="136.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">100%</text>
+<line x1="170.0" y1="500.0" x2="170.0" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="170.0" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">0%</text>
+<line x1="306.7" y1="500.0" x2="306.7" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="306.7" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">5%</text>
+<line x1="443.3" y1="500.0" x2="443.3" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="443.3" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">10%</text>
+<line x1="580.0" y1="500.0" x2="580.0" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="580.0" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">15%</text>
+<line x1="716.7" y1="500.0" x2="716.7" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="716.7" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">20%</text>
+<line x1="853.3" y1="500.0" x2="853.3" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="853.3" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">25%</text>
+<line x1="990.0" y1="500.0" x2="990.0" y2="508.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="990.0" y="532.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">30%</text>
+<line x1="170.0" y1="500.0" x2="990.0" y2="500.0" stroke="#334155" stroke-width="2"/>
+<line x1="170.0" y1="130.0" x2="170.0" y2="500.0" stroke="#334155" stroke-width="2"/>
+<text x="580.0" y="566.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle">False-pass rate F (share of wrong work the checker passes)</text>
+<text x="92.0" y="315.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 92.0 315.0)">Trust (share of passes that are real)</text>
+<line x1="170.0" y1="167.0" x2="990.0" y2="167.0" stroke="#64748B" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1000.0" y="173.0" font-size="18" font-weight="700" fill="#64748B" text-anchor="start">95%</text>
+<line x1="170.0" y1="278.0" x2="990.0" y2="278.0" stroke="#64748B" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1000.0" y="284.0" font-size="18" font-weight="700" fill="#64748B" text-anchor="start">80%</text>
+<path d="M170.0,130.0 L183.7,139.5 L197.3,148.7 L211.0,157.7 L224.7,166.5 L238.3,175.0 L252.0,183.4 L265.7,191.6 L279.3,199.5 L293.0,207.3 L306.7,214.9 L320.3,222.4 L334.0,229.6 L347.7,236.7 L361.3,243.7 L375.0,250.5 L388.7,257.1 L402.3,263.6 L416.0,270.0 L429.7,276.2 L443.3,282.4 L457.0,288.3 L470.7,294.2 L484.3,300.0 L498.0,305.6 L511.7,311.1 L525.3,316.5 L539.0,321.9 L552.7,327.1 L566.3,332.2 L580.0,337.2 L593.7,342.1 L607.3,347.0 L621.0,351.7 L634.7,356.4 L648.3,361.0 L662.0,365.5 L675.7,369.9 L689.3,374.2 L703.0,378.5 L716.7,382.7 L730.3,386.8 L744.0,390.9 L757.7,394.9 L771.3,398.8 L785.0,402.6 L798.7,406.4 L812.3,410.2 L826.0,413.8 L839.7,417.5 L853.3,421.0 L867.0,424.5 L880.7,428.0 L894.3,431.4 L908.0,434.7 L921.7,438.0 L935.3,441.2 L949.0,444.4 L962.7,447.6 L976.3,450.7 L990.0,453.7" fill="none" stroke="#0072B2" stroke-width="4" stroke-linejoin="round"/>
+<path d="M170.0,130.0 L183.7,134.1 L197.3,138.1 L211.0,142.1 L224.7,146.1 L238.3,150.0 L252.0,153.9 L265.7,157.7 L279.3,161.5 L293.0,165.2 L306.7,168.9 L320.3,172.6 L334.0,176.2 L347.7,179.8 L361.3,183.4 L375.0,186.9 L388.7,190.4 L402.3,193.9 L416.0,197.3 L429.7,200.7 L443.3,204.0 L457.0,207.3 L470.7,210.6 L484.3,213.8 L498.0,217.1 L511.7,220.2 L525.3,223.4 L539.0,226.5 L552.7,229.6 L566.3,232.7 L580.0,235.7 L593.7,238.7 L607.3,241.7 L621.0,244.6 L634.7,247.6 L648.3,250.5 L662.0,253.3 L675.7,256.2 L689.3,259.0 L703.0,261.8 L716.7,264.5 L730.3,267.3 L744.0,270.0 L757.7,272.7 L771.3,275.4 L785.0,278.0 L798.7,280.6 L812.3,283.2 L826.0,285.8 L839.7,288.3 L853.3,290.9 L867.0,293.4 L880.7,295.9 L894.3,298.3 L908.0,300.8 L921.7,303.2 L935.3,305.6 L949.0,308.0 L962.7,310.3 L976.3,312.7 L990.0,315.0" fill="none" stroke="#009E73" stroke-width="4" stroke-linejoin="round" stroke-dasharray="12 7"/>
+<circle cx="224.7" cy="166.5" r="8.0" fill="#0072B2" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle cx="716.7" cy="382.7" r="8.0" fill="#0072B2" stroke="#FFFFFF" stroke-width="2.5"/>
+<circle cx="716.7" cy="264.5" r="8.0" fill="#009E73" stroke="#FFFFFF" stroke-width="2.5"/>
+<text x="182.0" y="195.1" font-size="20" font-weight="800" fill="#005F94" text-anchor="start">95.1%</text>
+<text x="700.7" y="416.7" font-size="20" font-weight="800" fill="#005F94" text-anchor="end">65.9%</text>
+<text x="730.7" y="250.5" font-size="20" font-weight="800" fill="#00795A" text-anchor="start">81.8%</text>
+<rect x="1004.0" y="330.0" width="170.0" height="110.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="1018.0" y1="364.0" x2="1056.0" y2="364.0" stroke="#0072B2" stroke-width="4"/>
+<text x="1066.0" y="370.0" font-size="18" font-weight="700" fill="#005F94" text-anchor="start">p = 0.30</text>
+<line x1="1018.0" y1="408.0" x2="1056.0" y2="408.0" stroke="#009E73" stroke-width="4" stroke-dasharray="12 7"/>
+<text x="1066.0" y="414.0" font-size="18" font-weight="700" fill="#00795A" text-anchor="start">p = 0.50</text>
+<text x="170.0" y="612.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="start">Cutting false passes from 20% to 2% lifts trust from 66% to 95%.</text>
+<text x="170.0" y="640.0" font-size="19" font-weight="400" fill="#334155" text-anchor="start">A better prompt that lifts p from 0.30 to 0.50 only reaches 82%.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-4.3: Typical run, ceiling, and monthly ceiling</title>
+<desc id="d">Two panels using invented prices of 4 dollars per million input tokens and 20 dollars per million output tokens, labeled as not real. Left: cumulative cost over five iterations at 12 cents each: 12, 24, 36, 48, and 60 cents. A marker shows the typical stop at about two iterations, 24 cents, and a dashed line shows the 60-cent ceiling at the cap of five. Right: the monthly ceiling, 30 runs times 60 cents, equals 18 dollars.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Typical run, ceiling, and monthly ceiling</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">CALC-3 with INVENTED prices ($4 in / $20 out per million tokens) · for the arithmetic only, not real prices</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-4.3</text>
+<line x1="160.0" y1="530.0" x2="680.0" y2="530.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="536.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.00</text>
+<line x1="160.0" y1="475.7" x2="680.0" y2="475.7" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="481.7" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.10</text>
+<line x1="160.0" y1="421.4" x2="680.0" y2="421.4" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="427.4" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.20</text>
+<line x1="160.0" y1="367.1" x2="680.0" y2="367.1" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="373.1" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.30</text>
+<line x1="160.0" y1="312.9" x2="680.0" y2="312.9" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="318.9" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.40</text>
+<line x1="160.0" y1="258.6" x2="680.0" y2="258.6" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="264.6" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.50</text>
+<line x1="160.0" y1="204.3" x2="680.0" y2="204.3" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="210.3" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.60</text>
+<line x1="160.0" y1="150.0" x2="680.0" y2="150.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="148.0" y="156.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">$0.70</text>
+<line x1="160.0" y1="530.0" x2="160.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="160.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">0</text>
+<line x1="264.0" y1="530.0" x2="264.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="264.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">1</text>
+<line x1="368.0" y1="530.0" x2="368.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="368.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">2</text>
+<line x1="472.0" y1="530.0" x2="472.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="472.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">3</text>
+<line x1="576.0" y1="530.0" x2="576.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="576.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">4</text>
+<line x1="680.0" y1="530.0" x2="680.0" y2="538.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="680.0" y="562.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">5</text>
+<line x1="160.0" y1="530.0" x2="680.0" y2="530.0" stroke="#334155" stroke-width="2"/>
+<line x1="160.0" y1="150.0" x2="160.0" y2="530.0" stroke="#334155" stroke-width="2"/>
+<text x="420.0" y="596.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle">Iterations used in one run</text>
+<text x="82.0" y="340.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 82.0 340.0)">Cost so far</text>
+<path d="M160.0,530.0 L264.0,464.9 L368.0,399.7 L472.0,334.6 L576.0,269.4 L680.0,204.3" fill="none" stroke="#0072B2" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="160.0" cy="530.0" r="6" fill="#0072B2"/>
+<circle cx="264.0" cy="464.9" r="6" fill="#0072B2"/>
+<circle cx="368.0" cy="399.7" r="6" fill="#0072B2"/>
+<circle cx="472.0" cy="334.6" r="6" fill="#0072B2"/>
+<circle cx="576.0" cy="269.4" r="6" fill="#0072B2"/>
+<circle cx="680.0" cy="204.3" r="6" fill="#0072B2"/>
+<line x1="160.0" y1="204.3" x2="680.0" y2="204.3" stroke="#D55E00" stroke-width="2.5" stroke-dasharray="10 6"/>
+<rect x="173.8" y="173.2" width="350.6" height="24.3" rx="6" fill="#F8FAFC"/>
+<text x="180.8" y="190.3" font-size="18" font-weight="800" fill="#B34D00" text-anchor="start">ceiling per run: 5 × $0.12 = $0.60</text>
+<line x1="368.0" y1="530.0" x2="368.0" y2="399.7" stroke="#009E73" stroke-width="2.5" stroke-dasharray="6 5"/>
+<circle cx="368.0" cy="399.7" r="10.0" fill="none" stroke="#009E73" stroke-width="3"/>
+<rect x="377.0" y="416.6" width="320.9" height="24.3" rx="6" fill="#F8FAFC"/>
+<text x="384.0" y="433.7" font-size="18" font-weight="800" fill="#00795A" text-anchor="start">typical run ≈ 2 × $0.12 = $0.24</text>
+<rect x="760.0" y="170.0" width="380.0" height="250.0" rx="18" fill="#FDF1D8" stroke="#E69F00" stroke-width="3"/>
+<text x="950.0" y="214.0" font-size="22" font-weight="800" fill="#9A6100" text-anchor="middle">MONTHLY CEILING</text>
+<text x="950.0" y="300.0" font-size="64" font-weight="800" fill="#0F172A" text-anchor="middle">$18.00</text>
+<text x="950.0" y="350.0" font-size="22" font-weight="600" fill="#334155" text-anchor="middle">30 runs × $0.60</text>
+<text x="950.0" y="386.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle" font-style="italic">the most a month can cost</text>
+<rect x="760.0" y="440.0" width="380.0" height="124.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="782.0" y="478.0" font-size="18" font-weight="600" fill="#334155" text-anchor="start">Cost per iteration</text>
+<text x="782.0" y="504.0" font-size="18" font-weight="600" fill="#334155" text-anchor="start">= (20,000 × $4 + 2,000 × $20)</text>
+<text x="782.0" y="530.0" font-size="18" font-weight="600" fill="#334155" text-anchor="start">   ÷ 1,000,000 = $0.12</text>
+<text x="160.0" y="630.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="start">The cap turns an open-ended risk into a number you can read before you press go.</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-2.1: Maker and checker</title>
+<desc id="d">A sequence across four lanes: loop runner, maker, checker, and human. The runner sends the task and prompt file to the maker, which returns work. The runner sends only the work to the checker, which answers not yet with the first failure, where it is, and expected versus actual. That message goes back to the maker as the next prompt. The maker returns new work, the checker answers pass with evidence, and the runner asks the human to approve at rung 3.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Maker and checker</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-2.1</text>
+<rect x="80.0" y="104.0" width="180.0" height="46.0" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="2.5"/>
+<text x="170.0" y="134.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="middle">LOOP RUNNER</text>
+<line x1="170.0" y1="150.0" x2="170.0" y2="640.0" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="390.0" y="104.0" width="180.0" height="46.0" rx="12" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="480.0" y="134.0" font-size="19" font-weight="800" fill="#005F94" text-anchor="middle">MAKER</text>
+<line x1="480.0" y1="150.0" x2="480.0" y2="640.0" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="700.0" y="104.0" width="180.0" height="46.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="790.0" y="134.0" font-size="19" font-weight="800" fill="#00795A" text-anchor="middle">CHECKER</text>
+<line x1="790.0" y1="150.0" x2="790.0" y2="640.0" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="970.0" y="104.0" width="180.0" height="46.0" rx="12" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="1060.0" y="134.0" font-size="19" font-weight="800" fill="#9C3F76" text-anchor="middle">HUMAN</text>
+<line x1="1060.0" y1="150.0" x2="1060.0" y2="640.0" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="6 6"/>
+<path d="M176.0,190.0 L472.0,190.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="243.2" y="163.8" width="163.6" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="325.0" y="180.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">task + PROMPT.md</text>
+<path d="M474.0,240.0 L178.0,240.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="210.5" y="213.8" width="229.1" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="325.0" y="230.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">work: a diff or a draft</text>
+<path d="M176.0,290.0 L782.0,290.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="281.3" y="263.9" width="397.4" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="480.0" y="280.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">the work only (not the maker's reasoning)</text>
+<path d="M784.0,340.0 L178.0,340.0" fill="none" stroke="#D55E00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-verm)"/>
+<rect x="229.9" y="313.9" width="500.2" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="480.0" y="330.0" font-size="17" font-weight="700" fill="#B34D00" text-anchor="middle">NOT YET · first failure · where · expected vs actual</text>
+<path d="M176.0,390.0 L472.0,390.0" fill="none" stroke="#E69F00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-orange)"/>
+<rect x="149.7" y="363.9" width="350.6" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="325.0" y="380.0" font-size="17" font-weight="700" fill="#9A6100" text-anchor="middle">that message becomes the next prompt</text>
+<path d="M474.0,440.0 L178.0,440.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="280.6" y="413.9" width="88.8" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="325.0" y="430.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">new work</text>
+<path d="M176.0,490.0 L782.0,490.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<rect x="412.2" y="463.9" width="135.6" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="480.0" y="480.0" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">the work only</text>
+<path d="M784.0,540.0 L178.0,540.0" fill="none" stroke="#009E73" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-green)"/>
+<rect x="276.6" y="513.9" width="406.7" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="480.0" y="530.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="middle">PASS + evidence (test output, exact match)</text>
+<path d="M176.0,596.0 L1052.0,596.0" fill="none" stroke="#CC79A7" stroke-width="3" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#ah-purple)"/>
+<rect x="392.9" y="569.9" width="444.1" height="23.0" rx="6" fill="#F8FAFC"/>
+<text x="615.0" y="586.0" font-size="17" font-weight="700" fill="#9C3F76" text-anchor="middle">approve? (rung 3: nothing counts until you do)</text>
+</svg>

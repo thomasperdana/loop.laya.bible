@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-5.1: Failure-mode gallery</title>
+<desc id="d">Nine cards, each with a small sketch, a symptom, and a fix. Runaway: iterations and cost keep climbing; fix with caps and a stuck rule. Thrashing: fixing A breaks B and back; fix with smaller turns. Drift: solves a neighboring problem; fix by keeping the goal word for word. Gaming the check: passes with weakened tests; protect the checker. Premature done: says done but spot checks fail; let evidence decide. Context rot: quality fades as a session grows; fresh context plus files. Stale state: redoes finished work; read first, write last. Silent failure: all green but nothing ran; alert when there are no rows. Pile-up: scheduled runs overlap; use a lock file.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Failure-mode gallery</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">Each one shows up in the run log before it shows up anywhere else</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-5.1</text>
+<rect x="56.0" y="116.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<path d="M72,236 L92,232 L112,224 L132,208 L150,184 L164,154" fill="none" stroke="#D55E00" stroke-width="4"/>
+<text x="112.0" y="188.0" font-size="28" font-weight="800" fill="#B34D00" text-anchor="start">$</text>
+<text x="194.0" y="160.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">RUNAWAY</text>
+<text x="194.0" y="192.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">iterations and cost</text>
+<text x="194.0" y="214.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">keep climbing</text>
+<text x="194.0" y="262.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: caps + a STUCK rule</text>
+<rect x="422.0" y="116.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="438.0" y="166.0" font-size="18" font-weight="800" fill="#64748B" text-anchor="start">A</text>
+<text x="438.0" y="234.0" font-size="18" font-weight="800" fill="#64748B" text-anchor="start">B</text>
+<path d="M456,160 L472,230 L488,160 L504,230 L520,160 L534,230" fill="none" stroke="#E69F00" stroke-width="4"/>
+<text x="560.0" y="160.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">THRASHING</text>
+<text x="560.0" y="192.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">fixing A breaks B,</text>
+<text x="560.0" y="214.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">and back again</text>
+<text x="560.0" y="262.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: smaller turns</text>
+<rect x="788.0" y="116.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<circle cx="894.0" cy="166.0" r="9.0" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<path d="M808,236 L848,196 Q864,186 892,216" fill="none" stroke="#E69F00" stroke-width="4" marker-end="url(#ah-orange)"/>
+<text x="926.0" y="160.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">DRIFT</text>
+<text x="926.0" y="192.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">solves a neighboring</text>
+<text x="926.0" y="214.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">problem</text>
+<text x="926.0" y="262.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: goal word for word</text>
+<rect x="56.0" y="296.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="80.0" y="344.0" width="84.0" height="64.0" rx="8" fill="#FFFFFF" stroke="#009E73" stroke-width="3"/>
+<path d="M96,376 L114,392 L148,356" fill="none" stroke="#009E73" stroke-width="5"/>
+<rect x="76.0" y="408.0" width="96.0" height="22.0" rx="6" fill="#FBE6D9" stroke="#D55E00" stroke-width="2"/>
+<text x="124.0" y="425.0" font-size="15" font-weight="800" fill="#B34D00" text-anchor="middle">@skip</text>
+<text x="194.0" y="340.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">GAMING THE CHECK</text>
+<text x="194.0" y="372.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">passes with weakened</text>
+<text x="194.0" y="394.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">tests</text>
+<text x="194.0" y="442.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: protect the checker</text>
+<rect x="422.0" y="296.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="458.0" y1="426.0" x2="458.0" y2="334.0" stroke="#334155" stroke-width="4"/>
+<path d="M458,336 L524,350 L458,366 Z" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<text x="516.0" y="416.0" font-size="40" font-weight="800" fill="#B34D00" text-anchor="middle">?</text>
+<text x="560.0" y="340.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">PREMATURE DONE</text>
+<text x="560.0" y="372.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">says done; spot</text>
+<text x="560.0" y="394.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">checks fail</text>
+<text x="560.0" y="442.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: evidence decides</text>
+<rect x="788.0" y="296.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="810" y="334" width="88" height="9" rx="4" fill="#0072B2" opacity="1.0"/>
+<rect x="810" y="352" width="82" height="9" rx="4" fill="#0072B2" opacity="0.75"/>
+<rect x="810" y="370" width="76" height="9" rx="4" fill="#0072B2" opacity="0.5"/>
+<rect x="810" y="388" width="70" height="9" rx="4" fill="#0072B2" opacity="0.3"/>
+<rect x="810" y="406" width="64" height="9" rx="4" fill="#0072B2" opacity="0.15"/>
+<text x="926.0" y="340.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">CONTEXT ROT</text>
+<text x="926.0" y="372.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">quality fades as a</text>
+<text x="926.0" y="394.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">session grows</text>
+<text x="926.0" y="442.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: fresh context + files</text>
+<rect x="56.0" y="476.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="84.0" y="514.0" width="76.0" height="92.0" rx="6" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+<line x1="96.0" y1="536.0" x2="148.0" y2="536.0" stroke="#CBD5E1" stroke-width="3"/>
+<line x1="96.0" y1="552.0" x2="148.0" y2="552.0" stroke="#CBD5E1" stroke-width="3"/>
+<line x1="96.0" y1="568.0" x2="148.0" y2="568.0" stroke="#CBD5E1" stroke-width="3"/>
+<line x1="96.0" y1="584.0" x2="148.0" y2="584.0" stroke="#CBD5E1" stroke-width="3"/>
+<path d="M158,566 A26,26 0 1 1 132,540" fill="none" stroke="#E69F00" stroke-width="4" marker-end="url(#ah-orange)"/>
+<text x="194.0" y="520.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">STALE STATE</text>
+<text x="194.0" y="552.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">redoes finished work</text>
+<text x="194.0" y="622.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: read first, write last</text>
+<rect x="422.0" y="476.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="444.0" y="520.0" width="88.0" height="80.0" rx="6" fill="#FFFFFF" stroke="#334155" stroke-width="3"/>
+<line x1="444.0" y1="540.0" x2="532.0" y2="540.0" stroke="#334155" stroke-width="3"/>
+<text x="488.0" y="576.0" font-size="15" font-weight="700" fill="#64748B" text-anchor="middle" font-style="italic">no rows</text>
+<circle cx="524.0" cy="518.0" r="10.0" fill="#009E73" stroke="#FFFFFF" stroke-width="2"/>
+<text x="560.0" y="520.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">SILENT FAILURE</text>
+<text x="560.0" y="552.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">all green, but</text>
+<text x="560.0" y="574.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">nothing ran</text>
+<text x="560.0" y="622.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: alert on no rows</text>
+<rect x="788.0" y="476.0" width="354.0" height="168.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<rect x="808.0" y="520.0" width="60.0" height="34.0" rx="6" fill="#E1EEF8" stroke="#0072B2" stroke-width="3"/>
+<rect x="824.0" y="542.0" width="60.0" height="34.0" rx="6" fill="#FDF1D8" stroke="#E69F00" stroke-width="3"/>
+<rect x="840.0" y="564.0" width="60.0" height="34.0" rx="6" fill="#FBE6D9" stroke="#D55E00" stroke-width="3"/>
+<text x="926.0" y="520.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">PILE-UP</text>
+<text x="926.0" y="552.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">scheduled runs</text>
+<text x="926.0" y="574.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">overlap</text>
+<text x="926.0" y="622.0" font-size="17" font-weight="700" fill="#00795A" text-anchor="start">fix: a lock file</text>
+</svg>

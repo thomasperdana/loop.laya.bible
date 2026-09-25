@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-1.2: Is it loop-worthy? Five questions</title>
+<desc id="d">Five yes-or-no questions on the left: does it repeat; can a machine tell when it's done; can you undo a bad run; does one run fit in one sitting; is a mistake cheap, or caught before it matters. Question two is marked as the gate. On the right, a scoring panel: five yeses make a great first loop; three or four need a human approval step; two or fewer mean do it by hand for now. Below, when not to loop at all.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Is it loop-worthy? Five questions</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-1.2</text>
+<rect x="60.0" y="116.0" width="660.0" height="84.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2"/>
+<circle cx="102.0" cy="158.0" r="22.0" fill="#FFFFFF" stroke="#0072B2" stroke-width="3"/>
+<text x="102.0" y="166.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="middle">1</text>
+<text x="142.0" y="152.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="start">Does it repeat?</text>
+<text x="142.0" y="182.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">Many similar items, or the same job every week</text>
+<rect x="60.0" y="212.0" width="660.0" height="84.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<circle cx="102.0" cy="254.0" r="22.0" fill="#FFFFFF" stroke="#009E73" stroke-width="3"/>
+<text x="102.0" y="262.0" font-size="22" font-weight="800" fill="#00795A" text-anchor="middle">2</text>
+<text x="142.0" y="248.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="start">Can a machine tell when it's done?</text>
+<text x="142.0" y="278.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">A test, a count, a checker. This is the gate.</text>
+<rect x="60.0" y="308.0" width="660.0" height="84.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2"/>
+<circle cx="102.0" cy="350.0" r="22.0" fill="#FFFFFF" stroke="#0072B2" stroke-width="3"/>
+<text x="102.0" y="358.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="middle">3</text>
+<text x="142.0" y="344.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="start">Can you undo a bad run?</text>
+<text x="142.0" y="374.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">Drafts, branches, and sandboxes can be undone</text>
+<rect x="60.0" y="404.0" width="660.0" height="84.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2"/>
+<circle cx="102.0" cy="446.0" r="22.0" fill="#FFFFFF" stroke="#0072B2" stroke-width="3"/>
+<text x="102.0" y="454.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="middle">4</text>
+<text x="142.0" y="440.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="start">Does one run fit in one sitting?</text>
+<text x="142.0" y="470.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">One test, one lesson, one link at a time</text>
+<rect x="60.0" y="500.0" width="660.0" height="84.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2"/>
+<circle cx="102.0" cy="542.0" r="22.0" fill="#FFFFFF" stroke="#0072B2" stroke-width="3"/>
+<text x="102.0" y="550.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="middle">5</text>
+<text x="142.0" y="536.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="start">Is a mistake cheap, or caught first?</text>
+<text x="142.0" y="566.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">Low stakes, or a person approves before it counts</text>
+<rect x="760.0" y="116.0" width="380.0" height="372.0" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="950.0" y="154.0" font-size="22" font-weight="800" fill="#0F172A" text-anchor="middle">Count your yeses</text>
+<rect x="784.0" y="180.0" width="332.0" height="84.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="826.0" y="233.0" font-size="28" font-weight="800" fill="#00795A" text-anchor="middle">5</text>
+<text x="880.0" y="230.0" font-size="20" font-weight="700" fill="#0F172A" text-anchor="start">A great first loop</text>
+<rect x="784.0" y="280.0" width="332.0" height="84.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="826.0" y="333.0" font-size="28" font-weight="800" fill="#9A6100" text-anchor="middle">3–4</text>
+<text x="880.0" y="318.0" font-size="20" font-weight="700" fill="#0F172A" text-anchor="start">Loop, with a human</text>
+<text x="880.0" y="342.0" font-size="20" font-weight="700" fill="#0F172A" text-anchor="start">approval step</text>
+<rect x="784.0" y="380.0" width="332.0" height="84.0" rx="14" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5"/>
+<text x="826.0" y="433.0" font-size="28" font-weight="800" fill="#B34D00" text-anchor="middle">0–2</text>
+<text x="880.0" y="430.0" font-size="20" font-weight="700" fill="#0F172A" text-anchor="start">Do it by hand for now</text>
+<rect x="760.0" y="504.0" width="380.0" height="136.0" rx="16" fill="#FBE6D9" stroke="#D55E00" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="950.0" y="540.0" font-size="20" font-weight="800" fill="#B34D00" text-anchor="middle">Don't loop at all:</text>
+<text x="950.0" y="572.0" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">one-off tasks · no checkable outcome ·</text>
+<text x="950.0" y="596.0" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">irreversible, high-stakes actions</text>
+<text x="60.0" y="628.0" font-size="18" font-weight="600" fill="#00795A" text-anchor="start">Question 2 is the gate: without a checkable finish line, nothing else matters.</text>
+</svg>

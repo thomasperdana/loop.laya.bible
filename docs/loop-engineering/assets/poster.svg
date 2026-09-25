@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1560" width="1200" height="1560" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Loop engineering on one page</title>
+<desc id="d">A one-page poster. Top left: the core cycle of trigger, plan, act, observe, verify, and decide, with state written down after every turn. Top right: the five stop families with exit codes: DONE 0, CAP 2, STUCK 3, HUMAN 4, DANGER 5. Middle: the Loop Spec's nine boxes: goal, done when, trigger, actor, context, checker, state, limits, escalation. Below: the autonomy ladder of watch, suggest, act with approval, and act alone, with money, health, legal, and production work stopping at act with approval. Bottom: the four calculator formulas for verifier trust, tries to success, loop budget, and the loop scorecard.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="1548" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Loop engineering on one page</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">The core cycle · the five stop families · the nine boxes · the autonomy ladder · the four calculators</text>
+<text x="60.0" y="150.0" font-size="20" font-weight="800" fill="#64748B" text-anchor="start">THE CORE CYCLE</text>
+<path d="M351.3,204.0 A150,150 0 0 1 396.4,230.1" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<path d="M447.7,319.0 A150,150 0 0 1 447.7,371.0" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<path d="M396.4,459.9 A150,150 0 0 1 351.3,486.0" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<path d="M248.7,486.0 A150,150 0 0 1 203.6,459.9" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<path d="M152.3,371.0 A150,150 0 0 1 152.3,319.0" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<path d="M203.6,230.1 A150,150 0 0 1 248.7,204.0" fill="none" stroke="#64748B" stroke-width="3" marker-end="url(#ah-muted)"/>
+<rect x="244.0" y="175.0" width="112.0" height="40.0" rx="20" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="300.0" y="202.0" font-size="18" font-weight="800" fill="#9C3F76" text-anchor="middle">TRIGGER</text>
+<rect x="391.9" y="250.0" width="76.0" height="40.0" rx="20" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="429.9" y="277.0" font-size="18" font-weight="800" fill="#005F94" text-anchor="middle">PLAN</text>
+<rect x="397.9" y="400.0" width="64.0" height="40.0" rx="20" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="429.9" y="427.0" font-size="18" font-weight="800" fill="#005F94" text-anchor="middle">ACT</text>
+<rect x="244.0" y="475.0" width="112.0" height="40.0" rx="20" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="300.0" y="502.0" font-size="18" font-weight="800" fill="#1B6FA0" text-anchor="middle">OBSERVE</text>
+<rect x="120.1" y="400.0" width="100.0" height="40.0" rx="20" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="170.1" y="427.0" font-size="18" font-weight="800" fill="#00795A" text-anchor="middle">VERIFY</text>
+<rect x="120.1" y="250.0" width="100.0" height="40.0" rx="20" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="170.1" y="277.0" font-size="18" font-weight="800" fill="#9A6100" text-anchor="middle">DECIDE</text>
+<rect x="226.0" y="309.0" width="148.0" height="72.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="300.0" y="341.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="middle">STATE</text>
+<text x="300.0" y="365.0" font-size="15" font-weight="400" fill="#64748B" text-anchor="middle">after every turn</text>
+<text x="620.0" y="150.0" font-size="20" font-weight="800" fill="#64748B" text-anchor="start">THE FIVE STOP FAMILIES</text>
+<rect x="620.0" y="170.0" width="520.0" height="58.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="640.0" y="207.0" font-size="20" font-weight="800" fill="#00795A" text-anchor="start">DONE</text>
+<text x="750.0" y="207.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">the checker passes, with evidence</text>
+<circle cx="1110.0" cy="199.0" r="18.0" fill="#FFFFFF" stroke="#009E73" stroke-width="2.5"/>
+<text x="1110.0" y="206.0" font-size="18" font-weight="800" fill="#00795A" text-anchor="middle">0</text>
+<rect x="620.0" y="238.0" width="520.0" height="58.0" rx="12" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="640.0" y="275.0" font-size="20" font-weight="800" fill="#9A6100" text-anchor="start">CAP</text>
+<text x="750.0" y="275.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">iterations, spend, or time run out</text>
+<circle cx="1110.0" cy="267.0" r="18.0" fill="#FFFFFF" stroke="#E69F00" stroke-width="2.5"/>
+<text x="1110.0" y="274.0" font-size="18" font-weight="800" fill="#9A6100" text-anchor="middle">2</text>
+<rect x="620.0" y="306.0" width="520.0" height="58.0" rx="12" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="640.0" y="343.0" font-size="20" font-weight="800" fill="#9A6100" text-anchor="start">STUCK</text>
+<text x="750.0" y="343.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">the same failure N times in a row</text>
+<circle cx="1110.0" cy="335.0" r="18.0" fill="#FFFFFF" stroke="#E69F00" stroke-width="2.5"/>
+<text x="1110.0" y="342.0" font-size="18" font-weight="800" fill="#9A6100" text-anchor="middle">3</text>
+<rect x="620.0" y="374.0" width="520.0" height="58.0" rx="12" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="640.0" y="411.0" font-size="20" font-weight="800" fill="#9C3F76" text-anchor="start">HUMAN</text>
+<text x="750.0" y="411.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">stop file, or a checkpoint is due</text>
+<circle cx="1110.0" cy="403.0" r="18.0" fill="#FFFFFF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="1110.0" y="410.0" font-size="18" font-weight="800" fill="#9C3F76" text-anchor="middle">4</text>
+<rect x="620.0" y="442.0" width="520.0" height="58.0" rx="12" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5"/>
+<text x="640.0" y="479.0" font-size="20" font-weight="800" fill="#B34D00" text-anchor="start">DANGER</text>
+<text x="750.0" y="479.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">risky action, or a protected file changed</text>
+<circle cx="1110.0" cy="471.0" r="18.0" fill="#FFFFFF" stroke="#D55E00" stroke-width="2.5"/>
+<text x="1110.0" y="478.0" font-size="18" font-weight="800" fill="#B34D00" text-anchor="middle">5</text>
+<text x="620.0" y="530.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="start">exit codes as in kit/loop.sh · 1 = script error</text>
+<text x="60.0" y="590.0" font-size="20" font-weight="800" fill="#64748B" text-anchor="start">THE LOOP SPEC: NINE BOXES ON ONE PAGE</text>
+<rect x="60.0" y="606.0" width="352.0" height="106.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="236.0" y="652.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">1 GOAL</text>
+<text x="236.0" y="676.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">the end state, in one sentence</text>
+<rect x="424.0" y="606.0" width="352.0" height="106.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="600.0" y="652.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">2 DONE WHEN</text>
+<text x="600.0" y="676.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">a machine can tell it's reached</text>
+<rect x="788.0" y="606.0" width="352.0" height="106.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="964.0" y="652.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">3 TRIGGER</text>
+<text x="964.0" y="676.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">you · goal · schedule · event</text>
+<rect x="60.0" y="724.0" width="352.0" height="106.0" rx="14" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="236.0" y="770.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">4 ACTOR</text>
+<text x="236.0" y="794.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">agent, model, allowed tools</text>
+<rect x="424.0" y="724.0" width="352.0" height="106.0" rx="14" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="600.0" y="770.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">5 CONTEXT</text>
+<text x="600.0" y="794.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">what each run reads first</text>
+<rect x="788.0" y="724.0" width="352.0" height="106.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="964.0" y="770.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">6 CHECKER</text>
+<text x="964.0" y="794.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">separate; default: not yet</text>
+<rect x="60.0" y="842.0" width="352.0" height="106.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2.5"/>
+<text x="236.0" y="888.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">7 STATE</text>
+<text x="236.0" y="912.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">files, commits, run log</text>
+<rect x="424.0" y="842.0" width="352.0" height="106.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="600.0" y="888.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">8 LIMITS</text>
+<text x="600.0" y="912.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">DONE · CAP · STUCK · DANGER · HUMAN</text>
+<rect x="788.0" y="842.0" width="352.0" height="106.0" rx="14" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5"/>
+<text x="964.0" y="888.1" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">9 ESCALATION</text>
+<text x="964.0" y="912.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">who's called, with what evidence</text>
+<text x="60.0" y="980.0" font-size="16" font-weight="600" fill="#64748B" text-anchor="start">Header: name · version · owner · autonomy rung · risk level</text>
+<text x="60.0" y="1040.0" font-size="20" font-weight="800" fill="#64748B" text-anchor="start">THE AUTONOMY LADDER: CLIMB ON EVIDENCE</text>
+<rect x="60.0" y="1150.0" width="256.0" height="94.0" rx="14" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="188.0" y="1189.7" font-size="18" font-weight="700" fill="#0F172A" text-anchor="middle">1 WATCH</text>
+<text x="188.0" y="1212.9" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">reads and reports</text>
+<path d="M318.0,1190.0 L332.0,1172.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="336.0" y="1124.0" width="256.0" height="94.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="464.0" y="1163.7" font-size="18" font-weight="700" fill="#0F172A" text-anchor="middle">2 SUGGEST</text>
+<text x="464.0" y="1186.9" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">proposes; you apply</text>
+<path d="M594.0,1164.0 L608.0,1146.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="612.0" y="1098.0" width="256.0" height="94.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="740.0" y="1127.3" font-size="18" font-weight="700" fill="#0F172A" text-anchor="middle">3 ACT WITH APPROVAL</text>
+<text x="740.0" y="1150.5" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">its own branch; you</text>
+<text x="740.0" y="1171.3" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">approve</text>
+<path d="M870.0,1138.0 L884.0,1120.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="888.0" y="1072.0" width="256.0" height="94.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="1016.0" y="1111.7" font-size="18" font-weight="700" fill="#0F172A" text-anchor="middle">4 ACT ALONE</text>
+<text x="1016.0" y="1134.9" font-size="16" font-weight="400" fill="#334155" text-anchor="middle">within caps; review after</text>
+<rect x="612.0" y="1250.0" width="528.0" height="36.0" rx="10" fill="#FBE6D9" stroke="#D55E00" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="876.0" y="1274.0" font-size="16" font-weight="800" fill="#B34D00" text-anchor="middle">Money · health · legal · production: stop at rung 3</text>
+<text x="60.0" y="1306.0" font-size="20" font-weight="800" fill="#64748B" text-anchor="start">THE FOUR CALCULATORS</text>
+<rect x="60.0" y="1318.0" width="534.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<text x="78.0" y="1348.0" font-size="17" font-weight="800" fill="#0F172A" text-anchor="start">CALC-1 VERIFIER TRUST</text>
+<text x="78.0" y="1378.0" font-size="19" font-weight="700" fill="#005F94" text-anchor="start">Trust = p·S ÷ (p·S + (1 − p)·F)</text>
+<text x="78.0" y="1402.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="start">95%+ to run unattended</text>
+<rect x="606.0" y="1318.0" width="534.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<text x="624.0" y="1348.0" font-size="17" font-weight="800" fill="#0F172A" text-anchor="start">CALC-2 TRIES-TO-SUCCESS</text>
+<text x="624.0" y="1378.0" font-size="19" font-weight="700" fill="#005F94" text-anchor="start">n = ⌈ ln(1 − C) ÷ ln(1 − p) ⌉</text>
+<text x="624.0" y="1402.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="start">over 15? fix the checker</text>
+<rect x="60.0" y="1426.0" width="534.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<text x="78.0" y="1456.0" font-size="17" font-weight="800" fill="#0F172A" text-anchor="start">CALC-3 LOOP BUDGET</text>
+<text x="78.0" y="1486.0" font-size="19" font-weight="700" fill="#005F94" text-anchor="start">ceiling = N × (Tin·Pin + Tout·Pout) ÷ 10⁶</text>
+<text x="78.0" y="1510.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="start">prices: current page ⚠VERIFY</text>
+<rect x="606.0" y="1426.0" width="534.0" height="96.0" rx="12" fill="#FFFFFF" stroke="#334155" stroke-width="2"/>
+<text x="624.0" y="1456.0" font-size="17" font-weight="800" fill="#0F172A" text-anchor="start">CALC-4 LOOP SCORECARD</text>
+<text x="624.0" y="1486.0" font-size="19" font-weight="700" fill="#005F94" text-anchor="start">3 × (r1..r4) + 2 × (r5..r8)</text>
+<text x="624.0" y="1510.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="start">75+ unattended · 90+ rung 4</text>
+<text x="600.0" y="1548.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="middle">From "Loop Engineering: From Zero to Hero" · tool details change: ⚠VERIFY against current docs</text>
+</svg>

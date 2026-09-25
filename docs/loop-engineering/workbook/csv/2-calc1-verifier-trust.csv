@@ -1,0 +1,19 @@
+CALC-1 · VERIFIER TRUST,,,,,,
+"When the checker says 'pass', how often is the work really right?",,,,,,
+,,,,,,
+Input,Symbol,Your value,,,,
+Share of attempts correct before any check,p,0.3,,,,
+Chance the checker passes correct work,S,0.9,,,,
+Chance the checker passes wrong work (false-pass rate),F,0.2,,,,
+,,,,,,
+Result,,Value,,,,
+Trust = p×S ÷ (p×S + (1 − p)×F),,=C5*C6/(C5*C6+(1-C5)*C7),,,,
+Share of passes that are wrong = 1 − Trust,,=1-C10,,,,
+Band,,"=IF(C10>=0.95,""95%+: unattended, with spot checks"",IF(C10>=0.8,""80-94%: a human checks a sample"",""under 80%: don't run unattended""))",,,,
+,,,,,,
+"Assumptions (adjustable): p, S, F stay about the same between runs; a 10 + 10 sample is only a rough estimate; checker mistakes that cluster on hard cases make true trust lower.",,,,,,
+,,,,,,
+Checksum case (from the guide),p,S,F,Trust (formula),Expected,Match
+Loose checker,0.3,0.9,0.2,=B17*C17/(B17*C17+(1-B17)*D17),0.659,"=IF(ABS(E17-F17)<0.0005,""yes"",""NO"")"
+Tight checker,0.3,0.9,0.02,=B18*C18/(B18*C18+(1-B18)*D18),0.951,"=IF(ABS(E18-F18)<0.0005,""yes"",""NO"")"
+"Better prompt, loose checker",0.5,0.9,0.2,=B19*C19/(B19*C19+(1-B19)*D19),0.818,"=IF(ABS(E19-F19)<0.0005,""yes"",""NO"")"

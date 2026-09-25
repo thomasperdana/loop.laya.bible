@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-6.2: Team shapes</title>
+<desc id="d">Three panels. One agent plus a script checker: the default, for small checkable tasks. A maker and checker pair: a second agent with fresh context reviews the first, for work a script can't fully check, like tone or design. An orchestrator with workers: one agent plans and splits the work, three workers run in separate worktrees, and a checker gates each result before a person merges, for large jobs made of many independent pieces.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Team shapes</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">Each step to the right adds a checker, not just more makers</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-6.2</text>
+<rect x="60.0" y="116.0" width="340.0" height="520.0" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="230.0" y="152.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="middle">1 · ONE AGENT</text>
+<text x="230.0" y="180.0" font-size="16" font-weight="600" fill="#64748B" text-anchor="middle" font-style="italic">the default: small, checkable tasks</text>
+<rect x="430.0" y="116.0" width="340.0" height="520.0" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="600.0" y="152.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="middle">2 · MAKER + CHECKER</text>
+<text x="600.0" y="180.0" font-size="16" font-weight="600" fill="#64748B" text-anchor="middle" font-style="italic">when a script can't see everything</text>
+<rect x="800.0" y="116.0" width="340.0" height="520.0" rx="16" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="970.0" y="152.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="middle">3 · ORCHESTRATOR + WORKERS</text>
+<text x="970.0" y="180.0" font-size="16" font-weight="600" fill="#64748B" text-anchor="middle" font-style="italic">big jobs with independent pieces</text>
+<rect x="155.0" y="240.0" width="150.0" height="60.0" rx="12" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="230.0" y="277.0" font-size="18" font-weight="800" fill="#005F94" text-anchor="middle">AGENT</text>
+<rect x="140.0" y="400.0" width="180.0" height="60.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="230.0" y="437.0" font-size="18" font-weight="800" fill="#00795A" text-anchor="middle">SCRIPT CHECK</text>
+<path d="M210.0,302.0 L210.0,396.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M250.0,398.0 L250.0,304.0" fill="none" stroke="#D55E00" stroke-width="3" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#ah-verm)"/>
+<text x="262.0" y="356.0" font-size="15" font-weight="700" fill="#B34D00" text-anchor="start">not yet</text>
+<text x="84.0" y="536.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">One maker, one deterministic</text>
+<text x="84.0" y="558.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">check. Most loops in this</text>
+<text x="84.0" y="580.2" font-size="17" font-weight="400" fill="#334155" text-anchor="start">guide.</text>
+<rect x="525.0" y="240.0" width="150.0" height="60.0" rx="12" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="600.0" y="277.0" font-size="18" font-weight="800" fill="#005F94" text-anchor="middle">MAKER</text>
+<rect x="505.0" y="400.0" width="190.0" height="60.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="600.0" y="437.0" font-size="18" font-weight="800" fill="#00795A" text-anchor="middle">CHECKER AGENT</text>
+<path d="M580.0,302.0 L580.0,396.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M620.0,398.0 L620.0,304.0" fill="none" stroke="#D55E00" stroke-width="3" stroke-linejoin="round" stroke-dasharray="6 5" marker-end="url(#ah-verm)"/>
+<text x="632.0" y="356.0" font-size="15" font-weight="700" fill="#B34D00" text-anchor="start">not yet</text>
+<text x="600.0" y="482.0" font-size="15" font-weight="600" fill="#00795A" text-anchor="middle">fresh context · own rubric</text>
+<text x="454.0" y="536.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">A second agent reviews what a</text>
+<text x="454.0" y="558.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">script can't: tone, design,</text>
+<text x="454.0" y="580.2" font-size="17" font-weight="400" fill="#334155" text-anchor="start">teaching.</text>
+<rect x="870.0" y="220.0" width="200.0" height="60.0" rx="12" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="970.0" y="257.0" font-size="18" font-weight="800" fill="#9C3F76" text-anchor="middle">ORCHESTRATOR</text>
+<rect x="812.0" y="318.0" width="96.0" height="52.0" rx="10" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2"/>
+<text x="860.0" y="350.0" font-size="15" font-weight="700" fill="#1B6FA0" text-anchor="middle">worker 1</text>
+<path d="M970.0,282.0 L860.0,312.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<path d="M860.0,372.0 L970.0,414.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="922.0" y="318.0" width="96.0" height="52.0" rx="10" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2"/>
+<text x="970.0" y="350.0" font-size="15" font-weight="700" fill="#1B6FA0" text-anchor="middle">worker 2</text>
+<path d="M970.0,282.0 L970.0,312.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<path d="M970.0,372.0 L970.0,414.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="1032.0" y="318.0" width="96.0" height="52.0" rx="10" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2"/>
+<text x="1080.0" y="350.0" font-size="15" font-weight="700" fill="#1B6FA0" text-anchor="middle">worker 3</text>
+<path d="M970.0,282.0 L1080.0,312.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<path d="M1080.0,372.0 L970.0,414.0" fill="none" stroke="#64748B" stroke-width="2" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<rect x="895.0" y="410.0" width="150.0" height="60.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="970.0" y="447.0" font-size="18" font-weight="800" fill="#00795A" text-anchor="middle">CHECKER</text>
+<text x="970.0" y="496.0" font-size="15" font-weight="600" fill="#9C3F76" text-anchor="middle">then a person merges</text>
+<text x="824.0" y="536.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">Separate worktrees; a failure</text>
+<text x="824.0" y="558.1" font-size="17" font-weight="400" fill="#334155" text-anchor="start">stays in its own branch.</text>
+</svg>

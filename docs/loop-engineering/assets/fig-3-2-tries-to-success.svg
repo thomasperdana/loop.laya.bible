@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-3.2: Chance of success within n tries</title>
+<desc id="d">Line chart. Horizontal axis: tries allowed, n, from 1 to 15. Vertical axis: chance of success within n tries, from 0 to 100 percent. Three curves: p = 0.8 passes 99 percent by 3 tries; p = 0.5 reaches 96.9 percent at 5 tries; p = 0.2 climbs slowly, reaching 91.4 percent at 11 tries. Dashed lines at 90 and 95 percent.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Chance of success within n tries</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">CALC-2 · 1 − (1 − p)ⁿ, assuming independent tries with the same p</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-3.2</text>
+<line x1="170.0" y1="510.0" x2="990.0" y2="510.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="516.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">0%</text>
+<line x1="170.0" y1="434.0" x2="990.0" y2="434.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="440.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">20%</text>
+<line x1="170.0" y1="358.0" x2="990.0" y2="358.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="364.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">40%</text>
+<line x1="170.0" y1="282.0" x2="990.0" y2="282.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="288.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">60%</text>
+<line x1="170.0" y1="206.0" x2="990.0" y2="206.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="212.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">80%</text>
+<line x1="170.0" y1="130.0" x2="990.0" y2="130.0" stroke="#E2E8F0" stroke-width="1.5"/>
+<text x="158.0" y="136.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="end">100%</text>
+<line x1="170.0" y1="510.0" x2="170.0" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="170.0" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">1</text>
+<line x1="287.1" y1="510.0" x2="287.1" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="287.1" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">3</text>
+<line x1="404.3" y1="510.0" x2="404.3" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="404.3" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">5</text>
+<line x1="521.4" y1="510.0" x2="521.4" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="521.4" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">7</text>
+<line x1="638.6" y1="510.0" x2="638.6" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="638.6" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">9</text>
+<line x1="755.7" y1="510.0" x2="755.7" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="755.7" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">11</text>
+<line x1="872.9" y1="510.0" x2="872.9" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="872.9" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">13</text>
+<line x1="990.0" y1="510.0" x2="990.0" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="990.0" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">15</text>
+<line x1="990.0" y1="510.0" x2="990.0" y2="518.0" stroke="#64748B" stroke-width="1.5"/>
+<text x="990.0" y="542.0" font-size="18" font-weight="400" fill="#64748B" text-anchor="middle">15</text>
+<line x1="170.0" y1="510.0" x2="990.0" y2="510.0" stroke="#334155" stroke-width="2"/>
+<line x1="170.0" y1="130.0" x2="170.0" y2="510.0" stroke="#334155" stroke-width="2"/>
+<text x="580.0" y="576.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle">Tries allowed (n)</text>
+<text x="92.0" y="320.0" font-size="20" font-weight="600" fill="#334155" text-anchor="middle" transform="rotate(-90 92.0 320.0)">Chance of success within n</text>
+<line x1="170.0" y1="168.0" x2="990.0" y2="168.0" stroke="#64748B" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1000.0" y="180.0" font-size="18" font-weight="700" fill="#64748B" text-anchor="start">90%</text>
+<line x1="170.0" y1="149.0" x2="990.0" y2="149.0" stroke="#64748B" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="1000.0" y="147.0" font-size="18" font-weight="700" fill="#64748B" text-anchor="start">95%</text>
+<path d="M170.0,206.0 L228.6,145.2 L287.1,133.0 L345.7,130.6 L404.3,130.1 L462.9,130.0 L521.4,130.0 L580.0,130.0 L638.6,130.0 L697.1,130.0 L755.7,130.0 L814.3,130.0 L872.9,130.0 L931.4,130.0 L990.0,130.0" fill="none" stroke="#56B4E9" stroke-width="3.5" stroke-linejoin="round" stroke-dasharray="4 5"/>
+<path d="M170.0,199.0 L177.0,206.0 L170.0,213.0 L163.0,206.0 Z" fill="#56B4E9"/>
+<path d="M228.6,138.2 L235.6,145.2 L228.6,152.2 L221.6,145.2 Z" fill="#56B4E9"/>
+<path d="M287.1,126.0 L294.1,133.0 L287.1,140.0 L280.1,133.0 Z" fill="#56B4E9"/>
+<path d="M345.7,123.6 L352.7,130.6 L345.7,137.6 L338.7,130.6 Z" fill="#56B4E9"/>
+<path d="M404.3,123.1 L411.3,130.1 L404.3,137.1 L397.3,130.1 Z" fill="#56B4E9"/>
+<path d="M462.9,123.0 L469.9,130.0 L462.9,137.0 L455.9,130.0 Z" fill="#56B4E9"/>
+<path d="M521.4,123.0 L528.4,130.0 L521.4,137.0 L514.4,130.0 Z" fill="#56B4E9"/>
+<path d="M580.0,123.0 L587.0,130.0 L580.0,137.0 L573.0,130.0 Z" fill="#56B4E9"/>
+<path d="M638.6,123.0 L645.6,130.0 L638.6,137.0 L631.6,130.0 Z" fill="#56B4E9"/>
+<path d="M697.1,123.0 L704.1,130.0 L697.1,137.0 L690.1,130.0 Z" fill="#56B4E9"/>
+<path d="M755.7,123.0 L762.7,130.0 L755.7,137.0 L748.7,130.0 Z" fill="#56B4E9"/>
+<path d="M814.3,123.0 L821.3,130.0 L814.3,137.0 L807.3,130.0 Z" fill="#56B4E9"/>
+<path d="M872.9,123.0 L879.9,130.0 L872.9,137.0 L865.9,130.0 Z" fill="#56B4E9"/>
+<path d="M931.4,123.0 L938.4,130.0 L931.4,137.0 L924.4,130.0 Z" fill="#56B4E9"/>
+<path d="M990.0,123.0 L997.0,130.0 L990.0,137.0 L983.0,130.0 Z" fill="#56B4E9"/>
+<path d="M170.0,320.0 L228.6,225.0 L287.1,177.5 L345.7,153.8 L404.3,141.9 L462.9,135.9 L521.4,133.0 L580.0,131.5 L638.6,130.7 L697.1,130.4 L755.7,130.2 L814.3,130.1 L872.9,130.0 L931.4,130.0 L990.0,130.0" fill="none" stroke="#0072B2" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="170.0" cy="320.0" r="5" fill="#0072B2"/>
+<circle cx="228.6" cy="225.0" r="5" fill="#0072B2"/>
+<circle cx="287.1" cy="177.5" r="5" fill="#0072B2"/>
+<circle cx="345.7" cy="153.8" r="5" fill="#0072B2"/>
+<circle cx="404.3" cy="141.9" r="5" fill="#0072B2"/>
+<circle cx="462.9" cy="135.9" r="5" fill="#0072B2"/>
+<circle cx="521.4" cy="133.0" r="5" fill="#0072B2"/>
+<circle cx="580.0" cy="131.5" r="5" fill="#0072B2"/>
+<circle cx="638.6" cy="130.7" r="5" fill="#0072B2"/>
+<circle cx="697.1" cy="130.4" r="5" fill="#0072B2"/>
+<circle cx="755.7" cy="130.2" r="5" fill="#0072B2"/>
+<circle cx="814.3" cy="130.1" r="5" fill="#0072B2"/>
+<circle cx="872.9" cy="130.0" r="5" fill="#0072B2"/>
+<circle cx="931.4" cy="130.0" r="5" fill="#0072B2"/>
+<circle cx="990.0" cy="130.0" r="5" fill="#0072B2"/>
+<path d="M170.0,434.0 L228.6,373.2 L287.1,324.6 L345.7,285.6 L404.3,254.5 L462.9,229.6 L521.4,209.7 L580.0,193.8 L638.6,181.0 L697.1,170.8 L755.7,162.6 L814.3,156.1 L872.9,150.9 L931.4,146.7 L990.0,143.4" fill="none" stroke="#E69F00" stroke-width="3.5" stroke-linejoin="round" stroke-dasharray="12 7"/>
+<rect x="165.0" y="429.0" width="10" height="10" fill="#E69F00"/>
+<rect x="223.6" y="368.2" width="10" height="10" fill="#E69F00"/>
+<rect x="282.1" y="319.6" width="10" height="10" fill="#E69F00"/>
+<rect x="340.7" y="280.6" width="10" height="10" fill="#E69F00"/>
+<rect x="399.3" y="249.5" width="10" height="10" fill="#E69F00"/>
+<rect x="457.9" y="224.6" width="10" height="10" fill="#E69F00"/>
+<rect x="516.4" y="204.7" width="10" height="10" fill="#E69F00"/>
+<rect x="575.0" y="188.8" width="10" height="10" fill="#E69F00"/>
+<rect x="633.6" y="176.0" width="10" height="10" fill="#E69F00"/>
+<rect x="692.1" y="165.8" width="10" height="10" fill="#E69F00"/>
+<rect x="750.7" y="157.6" width="10" height="10" fill="#E69F00"/>
+<rect x="809.3" y="151.1" width="10" height="10" fill="#E69F00"/>
+<rect x="867.9" y="145.9" width="10" height="10" fill="#E69F00"/>
+<rect x="926.4" y="141.7" width="10" height="10" fill="#E69F00"/>
+<rect x="985.0" y="138.4" width="10" height="10" fill="#E69F00"/>
+<circle cx="404.3" cy="141.9" r="11.0" fill="none" stroke="#0072B2" stroke-width="3"/>
+<circle cx="755.7" cy="162.6" r="11.0" fill="none" stroke="#E69F00" stroke-width="3"/>
+<rect x="585.9" y="297.2" width="440.0" height="176.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<line x1="603.9" y1="337.2" x2="649.9" y2="337.2" stroke="#56B4E9" stroke-width="3.5" stroke-dasharray="4 5"/>
+<text x="661.9" y="343.2" font-size="18" font-weight="700" fill="#1B6FA0" text-anchor="start">p = 0.8</text>
+<line x1="603.9" y1="385.2" x2="649.9" y2="385.2" stroke="#0072B2" stroke-width="3.5"/>
+<text x="661.9" y="391.2" font-size="18" font-weight="700" fill="#005F94" text-anchor="start">p = 0.5 · circled: 5 tries → 96.9%</text>
+<line x1="603.9" y1="433.2" x2="649.9" y2="433.2" stroke="#E69F00" stroke-width="3.5" stroke-dasharray="12 7"/>
+<text x="661.9" y="439.2" font-size="18" font-weight="700" fill="#9A6100" text-anchor="start">p = 0.2 · circled: 11 tries → 91.4%</text>
+<text x="170.0" y="630.0" font-size="19" font-weight="700" fill="#0F172A" text-anchor="start">Low p needs many tries. A better checker or smaller steps usually beats a bigger cap.</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-3.1: The five stop families</title>
+<desc id="d">A state diagram. On the left, a running state with an arrow looping back to itself labeled not yet, next turn. Five arrows lead to exits on the right. DONE, the success exit: the checker passes with evidence, exit code 0. Four failure exits: CAP, when iterations, spend, or time run out, exit code 2; STUCK, when the same failure repeats, exit code 3; HUMAN, when the stop file exists or a checkpoint is due, exit code 4; DANGER, when a risky permission, destructive action, or protected-file change is detected, exit code 5.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">The five stop families</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">One success exit, four failure exits · exit codes match kit/loop.sh</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-3.1</text>
+<rect x="70.0" y="270.0" width="300.0" height="150.0" rx="22" fill="#E1EEF8" stroke="#0072B2" stroke-width="3"/>
+<text x="220.0" y="336.0" font-size="28" font-weight="800" fill="#005F94" text-anchor="middle">RUNNING</text>
+<text x="220.0" y="370.0" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">act → observe → verify</text>
+<path d="M150.0,270.0 Q150.0,170.0 290.0,262.0" fill="none" stroke="#0072B2" stroke-width="3" marker-end="url(#ah-blue)"/>
+<rect x="118.9" y="178.9" width="202.1" height="24.3" rx="6" fill="#F8FAFC"/>
+<text x="220.0" y="196.0" font-size="18" font-weight="700" fill="#005F94" text-anchor="middle">not yet → next turn</text>
+<rect x="620.0" y="120.0" width="520.0" height="86.0" rx="16" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<text x="646.0" y="156.0" font-size="24" font-weight="800" fill="#00795A" text-anchor="start">DONE</text>
+<text x="646.0" y="186.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">the checker passes, with evidence</text>
+<circle cx="1098.0" cy="163.0" r="24.0" fill="#FFFFFF" stroke="#009E73" stroke-width="3"/>
+<text x="1098.0" y="171.0" font-size="22" font-weight="800" fill="#00795A" text-anchor="middle">0</text>
+<path d="M500.0,163.0 L612.0,163.0" fill="none" stroke="#009E73" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-green)"/>
+<rect x="620.0" y="224.0" width="520.0" height="86.0" rx="16" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="646.0" y="260.0" font-size="24" font-weight="800" fill="#9A6100" text-anchor="start">CAP</text>
+<text x="646.0" y="290.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">iterations, spend, or time run out</text>
+<circle cx="1098.0" cy="267.0" r="24.0" fill="#FFFFFF" stroke="#E69F00" stroke-width="3"/>
+<text x="1098.0" y="275.0" font-size="22" font-weight="800" fill="#9A6100" text-anchor="middle">2</text>
+<path d="M500.0,267.0 L612.0,267.0" fill="none" stroke="#E69F00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-orange)"/>
+<rect x="620.0" y="328.0" width="520.0" height="86.0" rx="16" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="646.0" y="364.0" font-size="24" font-weight="800" fill="#9A6100" text-anchor="start">STUCK</text>
+<text x="646.0" y="394.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">the same failure repeats N times</text>
+<circle cx="1098.0" cy="371.0" r="24.0" fill="#FFFFFF" stroke="#E69F00" stroke-width="3"/>
+<text x="1098.0" y="379.0" font-size="22" font-weight="800" fill="#9A6100" text-anchor="middle">3</text>
+<path d="M500.0,371.0 L612.0,371.0" fill="none" stroke="#E69F00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-orange)"/>
+<rect x="620.0" y="432.0" width="520.0" height="86.0" rx="16" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="646.0" y="468.0" font-size="24" font-weight="800" fill="#9C3F76" text-anchor="start">HUMAN</text>
+<text x="646.0" y="498.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">stop file found, or a checkpoint is due</text>
+<circle cx="1098.0" cy="475.0" r="24.0" fill="#FFFFFF" stroke="#CC79A7" stroke-width="3"/>
+<text x="1098.0" y="483.0" font-size="22" font-weight="800" fill="#9C3F76" text-anchor="middle">4</text>
+<path d="M500.0,475.0 L612.0,475.0" fill="none" stroke="#CC79A7" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-purple)"/>
+<rect x="620.0" y="536.0" width="520.0" height="86.0" rx="16" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5"/>
+<text x="646.0" y="572.0" font-size="24" font-weight="800" fill="#B34D00" text-anchor="start">DANGER</text>
+<text x="646.0" y="602.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">risky action or protected file changed</text>
+<circle cx="1098.0" cy="579.0" r="24.0" fill="#FFFFFF" stroke="#D55E00" stroke-width="3"/>
+<text x="1098.0" y="587.0" font-size="22" font-weight="800" fill="#B34D00" text-anchor="middle">5</text>
+<path d="M500.0,579.0 L612.0,579.0" fill="none" stroke="#D55E00" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-verm)"/>
+<text x="1098.0" y="112.0" font-size="16" font-weight="700" fill="#64748B" text-anchor="middle">exit</text>
+<line x1="372.0" y1="345.0" x2="500.0" y2="345.0" stroke="#334155" stroke-width="3"/>
+<line x1="500.0" y1="163.0" x2="500.0" y2="579.0" stroke="#334155" stroke-width="3"/>
+<text x="70.0" y="470.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="start">Four of five exits are failures.</text>
+<text x="70.0" y="500.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">That's normal: a loop earns trust by</text>
+<text x="70.0" y="524.0" font-size="18" font-weight="400" fill="#334155" text-anchor="start">stopping cleanly when it can't win.</text>
+</svg>

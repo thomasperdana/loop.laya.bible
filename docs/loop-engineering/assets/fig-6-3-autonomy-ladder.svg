@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-6.3: The autonomy ladder</title>
+<desc id="d">Four rungs, rung 1 at the bottom. Rung 1, watch: reads and reports, read-only; climb to rung 2 after two weeks of accurate reports. Rung 2, suggest: proposes drafts or diffs that a person applies; climb after a week of accepted suggestions and a CALC-4 score of at least 75. Rung 3, act with approval: changes its own branch or outbox, and nothing counts until a person approves; climb after 20 or more approved runs with no reverts, trust of at least 95 percent, and a CALC-4 score of at least 90. Rung 4, act alone: acts within caps, with review afterward, spend alerts, and a kill switch. Beside rung 4, a red note says money, health, legal, and production work stops at rung 3.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">The autonomy ladder</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">Climb one rung at a time, on evidence · thresholds are adjustable</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-6.3</text>
+<rect x="60.0" y="520.0" width="540.0" height="96.0" rx="14" fill="#E4F3FC" stroke="#56B4E9" stroke-width="3"/>
+<text x="82.0" y="560.0" font-size="22" font-weight="800" fill="#1B6FA0" text-anchor="start">1 · WATCH</text>
+<text x="82.0" y="592.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">reads and reports; read-only</text>
+<rect x="726.0" y="528.0" width="430.0" height="80.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="744.0" y="558.0" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">▲ climb to 2 when: two weeks of accurate</text>
+<text x="744.0" y="578.8" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">reports</text>
+<rect x="100.0" y="402.0" width="540.0" height="96.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="3"/>
+<text x="122.0" y="442.0" font-size="22" font-weight="800" fill="#005F94" text-anchor="start">2 · SUGGEST</text>
+<text x="122.0" y="474.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">proposes drafts or diffs; you apply</text>
+<rect x="726.0" y="410.0" width="430.0" height="80.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="744.0" y="440.0" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">▲ climb to 3 when: a week of accepted</text>
+<text x="744.0" y="460.8" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">suggestions · CALC-4 ≥ 75</text>
+<rect x="140.0" y="284.0" width="540.0" height="96.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="3"/>
+<text x="162.0" y="324.0" font-size="22" font-weight="800" fill="#00795A" text-anchor="start">3 · ACT WITH APPROVAL</text>
+<text x="162.0" y="356.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">changes its own branch or outbox; you approve</text>
+<rect x="726.0" y="292.0" width="430.0" height="80.0" rx="12" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="744.0" y="322.0" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">▲ climb to 4 when: 20+ approved runs, 0</text>
+<text x="744.0" y="342.8" font-size="16" font-weight="400" fill="#0F172A" text-anchor="start">reverts · trust ≥ 95% · CALC-4 ≥ 90</text>
+<rect x="180.0" y="166.0" width="540.0" height="96.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="3"/>
+<text x="202.0" y="206.0" font-size="22" font-weight="800" fill="#9A6100" text-anchor="start">4 · ACT ALONE</text>
+<text x="202.0" y="238.0" font-size="17" font-weight="400" fill="#334155" text-anchor="start">within caps; review after; alerts + kill switch</text>
+<rect x="726.0" y="174.0" width="430.0" height="80.0" rx="12" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5" stroke-dasharray="8 5"/>
+<text x="744.0" y="206.0" font-size="16" font-weight="400" fill="#B34D00" text-anchor="start">Money · health · legal · production: these</text>
+<text x="744.0" y="226.8" font-size="16" font-weight="400" fill="#B34D00" text-anchor="start">loops stop at rung 3, whatever their numbers.</text>
+<path d="M40.0,580.0 L40.0,452.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<path d="M40.0,462.0 L40.0,334.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+<path d="M40.0,344.0 L40.0,216.0" fill="none" stroke="#64748B" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-muted)"/>
+</svg>

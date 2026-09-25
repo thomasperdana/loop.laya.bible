@@ -1,0 +1,14 @@
+Loop Engineering workbook,
+From the guide 'Loop Engineering: From Zero to Hero' (docs/loop-engineering). Every result is a live formula.,
+,
+How to use,Type only in yellow cells. Blue cells are formulas; don't type over them. Orange cells are FIELD WORK: look the value up before you trust the result.
+Color key,"Yellow = input · Blue = formula · Orange = FIELD WORK (current prices, your own measurements)"
+CALC-1 Verifier Trust,"When the checker says 'pass', how often is the work really right? (Level 2)"
+CALC-2 Tries,How many tries should the cap allow? Includes a table of n = 1 to 20. (Level 3)
+CALC-3 Budget,"Cost per iteration, typical run, ceiling per run, monthly ceiling, time ceiling. (Level 4)"
+CALC-4 Scorecard,"The Loop Scorecard /100, with CS-1 v1, CS-1 v2, and the kit's loop.sh default pre-filled. (Level 5)"
+Loop Canvas,"The nine-box Loop Spec as a fill-in sheet, matching kit/LOOP-SPEC.md. (Level 1)"
+Run Log,"One row per iteration, same columns as kit/loop.sh writes; cost per row and summary numbers. (Level 5)"
+⚠VERIFY: prices,The 'Example' column of CALC-3 uses INVENTED round prices ($4 and $20 per million tokens) so the arithmetic is easy to check. They are not real prices. Put current prices from Anthropic's pricing page in the 'Yours' column.
+Checksums,"Each calculator sheet has a 'Checksum' table: the guide's worked examples, the workbook's result, and a match column. If a match cell says NO, a formula has been changed."
+"No macros, no links",This workbook has no macros and no links to other files.

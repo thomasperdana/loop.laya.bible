@@ -1,0 +1,21 @@
+CALC-4 · LOOP SCORECARD /100,,,,,,
+Rate each criterion 0-5. Score = 3 × (criteria 1-4) + 2 × (criteria 5-8).,,,,,,
+,,,,,,
+Criterion,Weight,CS-1 v1,CS-1 v2,kit loop.sh default,Yours,What a 5 looks like
+1 Goal & done condition,3,2,5,2,,"An end state a machine can check, with a success exit and a failure exit"
+2 Checker,3,1,5,2,,"Separate from the maker, 'not yet' by default, trust estimated with CALC-1"
+3 Stop rules & budget,3,0,5,4,,"Caps on iterations, spend, and time; a STUCK rule; the ceiling known from CALC-2 and CALC-3"
+4 Safety,3,1,4,4,,"Isolated workspace, least permissions, no destructive defaults, secrets out, injection considered, a kill switch"
+5 State & memory,2,1,4,3,,Kept in files outside the model; a fresh session can resume from them
+6 Observability,2,1,4,3,,A run log for every iteration and the five numbers from Level 5
+7 Human touchpoints,2,1,4,3,,"An escalation package, approval where the stakes need it, the autonomy rung stated"
+8 Reusability,2,1,4,4,,"A one-page Loop Spec, a version number, placeholders, easy to adapt"
+Score /100,,"=IF(COUNT(C5:C12)=8,3*SUM(C5:C8)+2*SUM(C9:C12),"""")","=IF(COUNT(D5:D12)=8,3*SUM(D5:D8)+2*SUM(D9:D12),"""")","=IF(COUNT(E5:E12)=8,3*SUM(E5:E8)+2*SUM(E9:E12),"""")","=IF(COUNT(F5:F12)=8,3*SUM(F5:F8)+2*SUM(F9:F12),"""")",
+Band,,"=IF(C13="""","""",IF(C13>=90,""hero-grade"",IF(C13>=75,""strong"",IF(C13>=60,""working"",""draft""))))","=IF(D13="""","""",IF(D13>=90,""hero-grade"",IF(D13>=75,""strong"",IF(D13>=60,""working"",""draft""))))","=IF(E13="""","""",IF(E13>=90,""hero-grade"",IF(E13>=75,""strong"",IF(E13>=60,""working"",""draft""))))","=IF(F13="""","""",IF(F13>=90,""hero-grade"",IF(F13>=75,""strong"",IF(F13>=60,""working"",""draft""))))",
+,,,,,,
+"Bands: 0-59 draft (don't run unattended) · 60-74 working (run it while you watch) · 75-89 strong (unattended, with caps and spot checks) · 90-100 hero-grade. Every rating below 4 names the fix that would raise it.",,,,,,
+,,,,,,
+Checksum,,Workbook,Expected,Match,,
+CS-1 v1,,=C13,20,"=IF(C19=D19,""yes"",""NO"")",,
+CS-1 v2,,=D13,89,"=IF(C20=D20,""yes"",""NO"")",,
+kit loop.sh default,,=E13,62,"=IF(C21=D21,""yes"",""NO"")",,

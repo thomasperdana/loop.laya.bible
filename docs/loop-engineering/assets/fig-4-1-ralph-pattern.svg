@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-4.1: The Ralph pattern, made safe</title>
+<desc id="d">Six steps in two rows. Top row: 1, is there a stop file? If so, exit 4, HUMAN. 2, is there time left? If not, exit 2, CAP. 3, a fresh agent reads PROMPT.md, progress.md, and git history, makes one change, and writes progress. Bottom row, right to left: 4, did a protected file change? If so, exit 5, DANGER. 5, the check script runs. 6, decide: pass exits 0, DONE; the same failure three times exits 3, STUCK; the last iteration exits 2, CAP; otherwise go around again. On the right, the files that carry memory: PROMPT.md, progress.md, git history, and the run log.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">The Ralph pattern, made safe</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">kit/loop.sh: the agent is one step of six</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-4.1</text>
+<rect x="60.0" y="124.0" width="214.0" height="150.0" rx="14" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="167.0" y="191.4" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">1 · STOP FILE?</text>
+<text x="167.0" y="217.5" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">yes → exit 4 HUMAN</text>
+<rect x="302.0" y="124.0" width="214.0" height="150.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="409.0" y="191.4" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">2 · TIME LEFT?</text>
+<text x="409.0" y="217.5" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">no → exit 2 CAP</text>
+<rect x="544.0" y="124.0" width="214.0" height="150.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="651.0" y="179.7" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">3 · ACT</text>
+<text x="651.0" y="205.8" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">a fresh agent does</text>
+<text x="651.0" y="229.2" font-size="18" font-weight="400" fill="#334155" text-anchor="middle">ONE thing</text>
+<rect x="60.0" y="340.0" width="214.0" height="150.0" rx="14" fill="#FDF1D8" stroke="#E69F00" stroke-width="2.5"/>
+<text x="167.0" y="386.0" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">6 · DECIDE</text>
+<text x="167.0" y="410.6" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">pass → 0 DONE · same</text>
+<text x="167.0" y="432.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">failure ×3 → 3 STUCK</text>
+<text x="167.0" y="454.8" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">· last try → 2 CAP</text>
+<rect x="302.0" y="340.0" width="214.0" height="150.0" rx="14" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="409.0" y="386.0" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">5 · VERIFY</text>
+<text x="409.0" y="410.6" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">the check script</text>
+<text x="409.0" y="432.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">decides, never the</text>
+<text x="409.0" y="454.8" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">agent</text>
+<rect x="544.0" y="340.0" width="214.0" height="150.0" rx="14" fill="#FBE6D9" stroke="#D55E00" stroke-width="2.5"/>
+<text x="651.0" y="397.0" font-size="21" font-weight="700" fill="#0F172A" text-anchor="middle">4 · PROTECTED?</text>
+<text x="651.0" y="421.7" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">changed → exit 5</text>
+<text x="651.0" y="443.8" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">DANGER</text>
+<path d="M278.0,199.0 L296.0,199.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M520.0,199.0 L538.0,199.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M651.0,278.0 L651.0,334.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M540.0,415.0 L522.0,415.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M298.0,415.0 L280.0,415.0" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-body)"/>
+<path d="M167.0,336.0 L167.0,280.0" fill="none" stroke="#0072B2" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-blue)"/>
+<rect x="122.8" y="296.8" width="216.4" height="21.6" rx="6" fill="#F8FAFC"/>
+<text x="231.0" y="312.0" font-size="16" font-weight="700" fill="#005F94" text-anchor="middle">not yet: next iteration</text>
+<rect x="60.0" y="522.0" width="698.0" height="110.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+<text x="84.0" y="558.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="start">Exit codes</text>
+<text x="84.0" y="590.0" font-size="19" font-weight="600" fill="#334155" text-anchor="start">0 DONE · 2 CAP · 3 STUCK · 4 HUMAN · 5 DANGER · 1 script error</text>
+<text x="84.0" y="618.0" font-size="17" font-weight="400" fill="#64748B" text-anchor="start" font-style="italic">Dry run by default: a mock agent and mock check, no API, no cost.</text>
+<text x="958.0" y="128.0" font-size="20" font-weight="800" fill="#0F172A" text-anchor="middle">FILES: the memory</text>
+<text x="958.0" y="148.0" font-size="15" font-weight="600" fill="#64748B" text-anchor="middle">blue arrow: reads · green arrow: writes</text>
+<rect x="800.0" y="162.0" width="316.0" height="100.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="958.0" y="204.8" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle">PROMPT.md</text>
+<text x="958.0" y="229.4" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">same every run</text>
+<rect x="800.0" y="278.0" width="316.0" height="100.0" rx="14" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="958.0" y="320.8" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle">progress.md</text>
+<text x="958.0" y="345.4" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">read, then updated</text>
+<rect x="800.0" y="394.0" width="316.0" height="100.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2.5"/>
+<text x="958.0" y="436.8" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle">git history</text>
+<text x="958.0" y="461.4" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">one commit per change</text>
+<rect x="800.0" y="510.0" width="316.0" height="100.0" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2.5"/>
+<text x="958.0" y="552.8" font-size="20" font-weight="700" fill="#0F172A" text-anchor="middle">loop-log.csv</text>
+<text x="958.0" y="577.4" font-size="17" font-weight="400" fill="#334155" text-anchor="middle">one row per iteration</text>
+<path d="M762.0,170.0 L792.0,204.0" fill="none" stroke="#56B4E9" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-sky)"/>
+<path d="M762.0,236.0 L792.0,318.0" fill="none" stroke="#009E73" stroke-width="3" stroke-linejoin="round" marker-end="url(#ah-green)"/>
+</svg>

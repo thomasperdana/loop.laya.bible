@@ -1,0 +1,28 @@
+CALC-3 · LOOP BUDGET,,,,
+"What can one run, and a month of runs, cost in money and time?",,,,
+,,,,
+Input,Symbol,Example (INVENTED prices),Yours,
+Input tokens per iteration,Tin,20000,,
+Output tokens per iteration,Tout,2000,,
+Price per million input tokens ($) ⚠VERIFY,Pin,4.0,,
+Price per million output tokens ($) ⚠VERIFY,Pout,20.0,,
+Chance one iteration succeeds (from CALC-2),p,0.5,,
+Iteration cap (from CALC-2),N,5,,
+Minutes per iteration,M,3,,
+Runs per month,R,30,,
+,,,,
+Result,,Example,Yours,
+"Cost per iteration = (Tin×Pin + Tout×Pout) ÷ 1,000,000",,=(C5*C7+C6*C8)/1000000,"=IF(COUNT(D5:D8)=4,(D5*D7+D6*D8)/1000000,"""")",
+Typical run ≈ (1 ÷ p) × cost per iteration,,=(1/C9)*C15,"=IF(AND(ISNUMBER(D9),ISNUMBER(D15)),(1/D9)*D15,"""")",
+Ceiling per run = N × cost per iteration,,=C10*C15,"=IF(AND(ISNUMBER(D10),ISNUMBER(D15)),D10*D15,"""")",
+Monthly ceiling = R × ceiling per run,,=C12*C17,"=IF(AND(ISNUMBER(D12),ISNUMBER(D17)),D12*D17,"""")",
+Time ceiling per run (minutes) = N × M,,=C10*C11,"=IF(COUNT(D10:D11)=2,D10*D11,"""")",
+,,,,
+"The 'Example' prices are INVENTED round numbers for easy arithmetic, not real prices. Put current prices from Anthropic's pricing page in the orange 'Yours' cells (FIELD WORK). Prompt caching and subscription plans change the picture: check the current pricing and plan pages.",,,,
+,,,,
+Checksum (Example column),,Workbook,Expected,Match
+Cost per iteration,,=C15,0.12,"=IF(ABS(C24-D24)<0.0005,""yes"",""NO"")"
+Typical run,,=C16,0.24,"=IF(ABS(C25-D25)<0.0005,""yes"",""NO"")"
+Ceiling per run,,=C17,0.6,"=IF(ABS(C26-D26)<0.0005,""yes"",""NO"")"
+Monthly ceiling,,=C18,18.0,"=IF(ABS(C27-D27)<0.0005,""yes"",""NO"")"
+Time ceiling (min),,=C19,15,"=IF(ABS(C28-D28)<0.0005,""yes"",""NO"")"

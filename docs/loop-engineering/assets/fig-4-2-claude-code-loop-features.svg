@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-labelledby="t d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">FIG-4.2: Claude Code's loop features</title>
+<desc id="d">Four groups of cards. Keep going toward a condition: /goal, which stops when a separate model judges the condition met or impossible, or after several turns without progress; a Stop hook, which your script controls and which is overridden after 8 blocks in a row without progress; and the Ralph loop plugin, whose --max-iterations defaults to unlimited. Repeat on a clock: /loop, fixed or self-paced, expiring after 7 days; desktop scheduled tasks on your machine; cloud routines at most hourly on a fresh clone. React to events: routines triggered by an API call or GitHub event, and CI jobs. Building blocks: headless claude -p runs, subagents as fresh checkers, skills that encode checks, and worktrees for isolation.</desc>
+<defs><marker id="ah-ink" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0F172A"/></marker><marker id="ah-body" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#334155"/></marker><marker id="ah-muted" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#64748B"/></marker><marker id="ah-blue" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0072B2"/></marker><marker id="ah-green" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#009E73"/></marker><marker id="ah-orange" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#E69F00"/></marker><marker id="ah-verm" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#D55E00"/></marker><marker id="ah-purple" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#CC79A7"/></marker><marker id="ah-sky" viewBox="0 0 10 10" refX="8.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#56B4E9"/></marker></defs>
+<rect x="6" y="6" width="1188" height="663" rx="22" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+<text x="44.0" y="62.0" font-size="32" font-weight="700" fill="#0F172A" text-anchor="start">Claude Code's loop features</text>
+<text x="44.0" y="96.0" font-size="20" font-weight="400" fill="#64748B" text-anchor="start">As of September 2026 · ⚠VERIFY every card · none of them sets your budget</text>
+<text x="1156.0" y="58.0" font-size="18" font-weight="600" fill="#64748B" text-anchor="end">FIG-4.2</text>
+<rect x="56.0" y="110.0" width="262.0" height="64.0" rx="12" fill="#E1EEF8" stroke="#0072B2" stroke-width="2.5"/>
+<text x="187.0" y="136.0" font-size="17" font-weight="800" fill="#005F94" text-anchor="middle">KEEP GOING TOWARD</text>
+<text x="187.0" y="160.0" font-size="17" font-weight="800" fill="#005F94" text-anchor="middle">A CONDITION</text>
+<rect x="56.0" y="186.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#0072B2" stroke-width="2"/>
+<text x="72.0" y="218.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">/goal &lt;condition&gt;</text>
+<text x="72.0" y="246.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">a fresh model checks each</text>
+<text x="72.0" y="266.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">turn; stops when met</text>
+<rect x="56.0" y="304.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#0072B2" stroke-width="2"/>
+<text x="72.0" y="336.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Stop hook</text>
+<text x="72.0" y="364.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">your script decides;</text>
+<text x="72.0" y="384.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">capped at 8 blocks</text>
+<rect x="56.0" y="422.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#0072B2" stroke-width="2" stroke-dasharray="8 5"/>
+<text x="72.0" y="454.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Ralph loop plugin</text>
+<text x="72.0" y="482.0" font-size="16" font-weight="400" fill="#B34D00" text-anchor="start">--max-iterations defaults</text>
+<text x="72.0" y="502.8" font-size="16" font-weight="400" fill="#B34D00" text-anchor="start">to UNLIMITED</text>
+<rect x="330.0" y="110.0" width="262.0" height="64.0" rx="12" fill="#E4F3FC" stroke="#56B4E9" stroke-width="2.5"/>
+<text x="461.0" y="136.0" font-size="17" font-weight="800" fill="#1B6FA0" text-anchor="middle">REPEAT ON</text>
+<text x="461.0" y="160.0" font-size="17" font-weight="800" fill="#1B6FA0" text-anchor="middle">A CLOCK</text>
+<rect x="330.0" y="186.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#56B4E9" stroke-width="2"/>
+<text x="346.0" y="218.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">/loop [interval]</text>
+<text x="346.0" y="246.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">fixed or self-paced;</text>
+<text x="346.0" y="266.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">expires after 7 days</text>
+<rect x="330.0" y="304.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#56B4E9" stroke-width="2"/>
+<text x="346.0" y="336.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Desktop scheduled task</text>
+<text x="346.0" y="364.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">runs on your machine, with</text>
+<text x="346.0" y="384.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">local files</text>
+<rect x="330.0" y="422.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#56B4E9" stroke-width="2"/>
+<text x="346.0" y="454.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Cloud routine</text>
+<text x="346.0" y="482.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">runs in the cloud, at most</text>
+<text x="346.0" y="502.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">hourly</text>
+<rect x="604.0" y="110.0" width="262.0" height="64.0" rx="12" fill="#DDF3EC" stroke="#009E73" stroke-width="2.5"/>
+<text x="735.0" y="136.0" font-size="17" font-weight="800" fill="#00795A" text-anchor="middle">REACT TO</text>
+<text x="735.0" y="160.0" font-size="17" font-weight="800" fill="#00795A" text-anchor="middle">EVENTS</text>
+<rect x="604.0" y="186.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#009E73" stroke-width="2"/>
+<text x="620.0" y="218.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Routine on an event</text>
+<text x="620.0" y="246.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">started by an API call or</text>
+<text x="620.0" y="266.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">a GitHub event</text>
+<rect x="604.0" y="304.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#009E73" stroke-width="2"/>
+<text x="620.0" y="336.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">CI job</text>
+<text x="620.0" y="364.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">a CI workflow that runs</text>
+<text x="620.0" y="384.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">claude -p</text>
+<rect x="878.0" y="110.0" width="262.0" height="64.0" rx="12" fill="#F6E6EF" stroke="#CC79A7" stroke-width="2.5"/>
+<text x="1009.0" y="136.0" font-size="17" font-weight="800" fill="#9C3F76" text-anchor="middle">BUILDING</text>
+<text x="1009.0" y="160.0" font-size="17" font-weight="800" fill="#9C3F76" text-anchor="middle">BLOCKS</text>
+<rect x="878.0" y="186.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#CC79A7" stroke-width="2"/>
+<text x="894.0" y="218.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">claude -p</text>
+<text x="894.0" y="246.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">one headless run; JSON</text>
+<text x="894.0" y="266.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">shows a cost estimate</text>
+<rect x="878.0" y="304.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#CC79A7" stroke-width="2"/>
+<text x="894.0" y="336.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Subagent</text>
+<text x="894.0" y="364.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">a fresh-context checker</text>
+<text x="894.0" y="384.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">(maker/checker)</text>
+<rect x="878.0" y="422.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#CC79A7" stroke-width="2"/>
+<text x="894.0" y="454.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Skill</text>
+<text x="894.0" y="482.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">package your checks once,</text>
+<text x="894.0" y="502.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">reuse them</text>
+<rect x="878.0" y="540.0" width="262.0" height="108.0" rx="12" fill="#FFFFFF" stroke="#CC79A7" stroke-width="2"/>
+<text x="894.0" y="572.0" font-size="19" font-weight="800" fill="#0F172A" text-anchor="start">Worktree</text>
+<text x="894.0" y="600.0" font-size="16" font-weight="400" fill="#334155" text-anchor="start">one folder and branch per</text>
+<text x="894.0" y="620.8" font-size="16" font-weight="400" fill="#334155" text-anchor="start">loop</text>
+</svg>
