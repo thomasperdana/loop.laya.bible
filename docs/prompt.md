@@ -1,0 +1,2 @@
+using @/Volumes/MacHD2/loop.laya.bible/docs/loop-engineering and https://github.com/NandhaKishorM/laya.git and combined kjv72 skill and kjv82 skill found in https://github.com/thomasperdana/kjv.prompt.git,
+i want you to create a loop that generate an in-depth kjv bible study for each chapter in the bible starting from genesis to revelation.

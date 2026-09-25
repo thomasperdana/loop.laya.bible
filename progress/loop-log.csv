@@ -1,0 +1,6 @@
+iteration,started_at,chapter_ref,action,check_result,stop_reason,tokens_in,tokens_out,diff_lines,note
+1,"2026-09-25T13:20:32Z","Genesis 1","master_verify","FAIL","NOT_YET",,,218,"SCRIPTURE QUOTE MISMATCHES DETECTED:   - Isaiah 45:5: expected 'I am the LORD, and there is none els"
+2,"2026-09-25T13:20:32Z","Genesis 1","master_verify","FAIL","NOT_YET",,,218,"SCRIPTURE QUOTE MISMATCHES DETECTED:   - Isaiah 45:5: expected 'I am the LORD, and there is none els"
+3,"2026-09-25T13:20:32Z","Genesis 1","master_verify","FAIL","STUCK",,,218,"Identical failure loop"
+1,"2026-09-25T13:21:49Z","Genesis 1","master_verify","PASS","DONE",,,218,"All checks passed"
+1,"2026-09-25T13:21:54Z","Revelation 22","master_verify","PASS","DONE",,,218,"All checks passed"
